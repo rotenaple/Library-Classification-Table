@@ -1,0 +1,40 @@
+000 Generalities
+001 Knowledge
+002 The book
+003 Systems
+004 Data processing Computer science
+005 Computer programming, programs, data
+006 Special computer methods
+007 Not assigned or no longer used
+008 Not assigned or no longer used
+009 Not assigned or no longer used
+010 Bibliography
+011 Bibliographies
+012 Bibliographies of individuals
+013 Bibliographies of works by specific classes of authors
+014 Bibliographies of anonymous and pseudonymous works
+015 Bibliographies of works from specific places
+016 Bibliographies of works from specific subjects
+017 General subject catalogs
+018 Catalogs arranged by author & date
+019 Dictionary catalogs
+020 Library & information sciences
+021 Library relationships
+022 Administration of the physical plant
+023 Personnel administration
+024 Not assigned or no longer used
+025 Library operations
+026 Libraries for specific subjects
+027 General libraries
+028 Reading, use of other information media
+029 Not assigned or no longer used
+030 General encyclopedic works
+031 General encyclopedic works — American
+032 General encyclopedic works in English
+033 General encyclopedic works in other Germanic languages
+034 General encyclopedic works in French, Provencal, Catalan
+035 General encyclopedic works in Italian, Romanian, Rhaeto-Romanic
+036 General encyclopedic works in Spanish & Portuguese
+037 General encyclopedic works in Slavic languages
+038 General encyclopedic works in Scandinavian languages
+039 General encyclopedic works in other languages
