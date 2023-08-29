@@ -4,10 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        /* Your existing styles here */
+        
         .title {
             font-weight: bold;
             font-size: 1.2em;
             margin-top: 10px;
+        }
+        .button-link {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            margin-bottom: 5px;
         }
         .smaller-title {
             font-weight: bold;
@@ -19,43 +31,97 @@
             font-size: 1.5em;
             margin-top: 15px;
         }
+        .sections-container {
+            display: flex;
+        }
+        .section-links {
+            margin-right: 20px;
+        }
+        .section-text {
+            flex: 1;
+        }
+        .section-text .content {
+            display: none;
+            margin-left: 20px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 10px;
+            margin-top: 20px;
+        }
+        .grid-item {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
     </style>
     <title>Section List</title>
 </head>
 <body>
-    <div id="sections"></div>
+    <div class="sections-container">
+        <div class="section-links" id="sectionLinks"></div>
+        <div class="section-text" id="sections"></div>
+    </div>
+
+    <div class="grid-container" id="gridContainer"></div>
 
     <script>
         fetch('https://raw.githubusercontent.com/rotenaple/test/main/sections.txt')
             .then(response => response.text())
             .then(data => {
+                const sectionLinksDiv = document.getElementById('sectionLinks');
                 const sectionsDiv = document.getElementById('sections');
+                const gridContainer = document.getElementById('gridContainer');
                 const lines = data.trim().split('\n');
+                const groupRanges = {};
 
                 lines.forEach(line => {
-                    const matchTitle = line.match(/^(\d{3}) (.+)/);
-                    const matchSmallerTitle = line.match(/^(\d{2}0) (.+)/);
-
-                    if (matchTitle) {
-                        const sectionCode = matchTitle[1];
-                        const sectionTitle = matchTitle[2];
-
-                        const titleElement = document.createElement('div');
-                        titleElement.textContent = sectionCode + ' ' + sectionTitle;
-
-                        if (sectionCode.endsWith('00')) {
-                        titleElement.classList.add('larger-title');
-                        } else if (sectionCode.endsWith('0')) {
-                            titleElement.classList.add('title');
-                        } else if (matchSmallerTitle) {
-                            titleElement.classList.add('smaller-title');
+                    const matchTopLevel = line.match(/^(\d{1})(\d{1})(\d{1}) (.+)/);
+                    if (matchTopLevel) {
+                        const groupCode = matchTopLevel[1] + '00';
+                        if (!groupRanges[groupCode]) {
+                            groupRanges[groupCode] = [];
                         }
-
-                        sectionsDiv.appendChild(titleElement);
+                        groupRanges[groupCode].push(line); // Push the whole line
                     }
+                });
+
+                Object.keys(groupRanges).forEach(groupCode => {
+                    const groupLink = document.createElement('button'); // Create a button element
+                    groupLink.classList.add('button-link'); // Apply button styles
+                    groupLink.textContent = groupRanges[groupCode][0]; // Use the first line as link text
+                    sectionLinksDiv.appendChild(groupLink);
+                    sectionLinksDiv.appendChild(document.createElement('br'));
+
+                    groupLink.addEventListener('click', () => {
+                        sectionsDiv.innerHTML = '';
+                        gridContainer.innerHTML = '';
+                        const selectedSections = groupRanges[groupCode].slice(1, 101); // Exclude the first line
+                        const sectionsPerGrid = 10;
+                        
+                        for (let i = 0; i < selectedSections.length; i += sectionsPerGrid) {
+                            const gridItem = document.createElement('div');
+                            gridItem.classList.add('grid-item');
+
+                            const sectionsSubset = selectedSections.slice(i, i + sectionsPerGrid);
+                            sectionsSubset.forEach((section, index) => {
+                                const sectionElement = document.createElement('div');
+                                sectionElement.textContent = section;
+                                
+                                if (index === 0) {
+                                    sectionElement.classList.add('title'); // Apply larger font size style
+                                }
+
+                                gridItem.appendChild(sectionElement);
+                            });
+
+                            gridContainer.appendChild(gridItem);
+                        }
+                    });
                 });
             })
             .catch(error => console.error('Error fetching data:', error));
     </script>
+
 </body>
 </html>
