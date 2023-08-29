@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .title {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        .smaller-title {
+            font-weight: bold;
+            font-size: 1em;
+            margin-top: 5px;
+        }
+        .larger-title {
+            font-weight: bold;
+            font-size: 1.5em;
+            margin-top: 15px;
+        }
+    </style>
+    <title>Section List</title>
+</head>
+<body>
+    <div id="sections"></div>
+
+    <script>
+        fetch('https://raw.githubusercontent.com/rotenaple/test/main/sections.txt')
+            .then(response => response.text())
+            .then(data => {
+                const sectionsDiv = document.getElementById('sections');
+                const lines = data.trim().split('\n');
+
+                lines.forEach(line => {
+                    const matchTitle = line.match(/^(\d{3}) (.+)/);
+                    const matchSmallerTitle = line.match(/^(\d{2}0) (.+)/);
+
+                    if (matchTitle) {
+                        const sectionCode = matchTitle[1];
+                        const sectionTitle = matchTitle[2];
+
+                        const titleElement = document.createElement('div');
+                        titleElement.textContent = sectionCode + ' ' + sectionTitle;
+
+                        if (sectionCode.endsWith('00')) {
+                        titleElement.classList.add('larger-title');
+                        } else if (sectionCode.endsWith('0')) {
+                            titleElement.classList.add('title');
+                        } else if (matchSmallerTitle) {
+                            titleElement.classList.add('smaller-title');
+                        }
+
+                        sectionsDiv.appendChild(titleElement);
+                    }
+                });
+            })
+            .catch(error => console.error('Error fetching data:', error));
+    </script>
+</body>
+</html>
