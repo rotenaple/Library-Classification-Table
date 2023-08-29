@@ -3,9 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
     <style>
         /* Your existing styles here */
-        
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .button-link {
+            font-family: 'Poppins', sans-serif;
+            /* Other button styles */
+        }
         .title {
             font-weight: bold;
             font-size: 1.2em;
@@ -66,61 +73,75 @@
     <div class="grid-container" id="gridContainer"></div>
 
     <script>
-        fetch('https://raw.githubusercontent.com/rotenaple/test/main/sections.txt')
-            .then(response => response.text())
-            .then(data => {
-                const sectionLinksDiv = document.getElementById('sectionLinks');
-                const sectionsDiv = document.getElementById('sections');
-                const gridContainer = document.getElementById('gridContainer');
-                const lines = data.trim().split('\n');
-                const groupRanges = {};
-
-                lines.forEach(line => {
-                    const matchTopLevel = line.match(/^(\d{1})(\d{1})(\d{1}) (.+)/);
-                    if (matchTopLevel) {
-                        const groupCode = matchTopLevel[1] + '00';
-                        if (!groupRanges[groupCode]) {
-                            groupRanges[groupCode] = [];
-                        }
-                        groupRanges[groupCode].push(line); // Push the whole line
+    fetch('https://raw.githubusercontent.com/rotenaple/test/main/sections.txt')
+        .then(response => response.text())
+        .then(data => {
+            const sectionLinksDiv = document.getElementById('sectionLinks');
+            const sectionsDiv = document.getElementById('sections');
+            const gridContainer = document.getElementById('gridContainer');
+            const lines = data.trim().split('\n');
+            const groupRanges = {};
+            
+            lines.forEach(line => {
+                const matchTopLevel = line.match(/^(\d{1})(\d{1})(\d{1}) (.+)/);
+                if (matchTopLevel) {
+                    const groupCode = matchTopLevel[1] + '00';
+                    if (!groupRanges[groupCode]) {
+                        groupRanges[groupCode] = [];
+                    }
+                    groupRanges[groupCode].push(line); // Push the whole line
+                }
+            });
+    
+            const groupLinks = [
+                '000 Generalities',
+                '100 Philosophy & psychology',
+                '200 Religion',
+                '300 Social sciences',
+                '400 Language',
+                '500 Natural sciences & mathematics',
+                '600 Technology (Applied sciences)',
+                '700 The arts',
+                '800 Literature & rhetoric',
+                '900 Geography & history'
+            ];
+    
+            groupLinks.forEach(link => {
+                const groupCode = link.substring(0, 3); // Extract the group code from the link text
+                const groupLink = document.createElement('button'); // Create a button element
+                groupLink.classList.add('button-link'); // Apply button styles
+                groupLink.textContent = link; // Use the link text
+                sectionLinksDiv.appendChild(groupLink);
+                sectionLinksDiv.appendChild(document.createElement('br'));
+    
+                groupLink.addEventListener('click', () => {
+                    sectionsDiv.innerHTML = '';
+                    gridContainer.innerHTML = '';
+                    const selectedSections = groupRanges[groupCode].slice(0, 100); // Change from 1 to 0
+                    const sectionsPerGrid = 10;
+                    
+                    for (let i = 0; i < selectedSections.length; i += sectionsPerGrid) {
+                        const gridItem = document.createElement('div');
+                        gridItem.classList.add('grid-item');
+    
+                        const sectionsSubset = selectedSections.slice(i, i + sectionsPerGrid);
+                        sectionsSubset.forEach((section, index) => {
+                            const sectionElement = document.createElement('div');
+                            sectionElement.textContent = section;
+                            
+                            if (index === 0) {
+                                sectionElement.classList.add('title'); // Apply larger font size style
+                            }
+    
+                            gridItem.appendChild(sectionElement);
+                        });
+    
+                        gridContainer.appendChild(gridItem);
                     }
                 });
-
-                Object.keys(groupRanges).forEach(groupCode => {
-                    const groupLink = document.createElement('button'); // Create a button element
-                    groupLink.classList.add('button-link'); // Apply button styles
-                    groupLink.textContent = groupRanges[groupCode][0]; // Use the first line as link text
-                    sectionLinksDiv.appendChild(groupLink);
-                    sectionLinksDiv.appendChild(document.createElement('br'));
-
-                    groupLink.addEventListener('click', () => {
-                        sectionsDiv.innerHTML = '';
-                        gridContainer.innerHTML = '';
-                        const selectedSections = groupRanges[groupCode].slice(1, 101); // Exclude the first line
-                        const sectionsPerGrid = 10;
-                        
-                        for (let i = 0; i < selectedSections.length; i += sectionsPerGrid) {
-                            const gridItem = document.createElement('div');
-                            gridItem.classList.add('grid-item');
-
-                            const sectionsSubset = selectedSections.slice(i, i + sectionsPerGrid);
-                            sectionsSubset.forEach((section, index) => {
-                                const sectionElement = document.createElement('div');
-                                sectionElement.textContent = section;
-                                
-                                if (index === 0) {
-                                    sectionElement.classList.add('title'); // Apply larger font size style
-                                }
-
-                                gridItem.appendChild(sectionElement);
-                            });
-
-                            gridContainer.appendChild(gridItem);
-                        }
-                    });
-                });
-            })
-            .catch(error => console.error('Error fetching data:', error));
+            });
+        })
+        .catch(error => console.error('Error fetching data:', error));
     </script>
 
 </body>
