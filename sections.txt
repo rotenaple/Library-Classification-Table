@@ -38,3 +38,263 @@
 037 General encyclopedic works in Slavic languages
 038 General encyclopedic works in Scandinavian languages
 039 General encyclopedic works in other languages
+040 Not assigned or no longer used
+041 Not assigned or no longer used
+042 Not assigned or no longer used
+043 Not assigned or no longer used
+044 Not assigned or no longer used
+045 Not assigned or no longer used
+046 Not assigned or no longer used
+047 Not assigned or no longer used
+048 Not assigned or no longer used
+049 Not assigned or no longer used
+050 General serials & their indexes
+051 General serials & their indexes American
+052 General serials & their indexes In English
+053 General serials & their indexes In other Germanic languages
+054 General serials & their indexes In French, Provencal, Catalan
+055 General serials & their indexes In Italian, Romanian, Rhaeto-Romanic
+056 General serials & their indexes In Spanish & Portuguese
+057 General serials & their indexes In Slavic languages
+058 General serials & their indexes In Scandinavian languages
+059 General serials & their indexes In other languages
+060 General organization & museology
+061 General organization & museology In North America
+062 General organization & museology In British Isles In England
+063 General organization & museology In central Europe In Germany
+064 General organization & museology In France & Monaco
+065 General organization & museology In Italy & adjacent territories
+066 General organization & museology In Iberian Peninsula & adjacent islands
+067 General organization & museology In eastern Europe In Soviet Union
+068 General organization & museology In other areas
+069 Museology (Museum science)
+070 News media, journalism, publishing
+071 News media, journalism, publishing In North America
+072 News media, journalism, publishing In British Isles In England
+073 News media, journalism, publishing In central Europe In Germany
+074 News media, journalism, publishing In France & Monaco
+075 News media, journalism, publishing In Italy & adjacent territories
+076 News media, journalism, publishing In Iberian Peninsula & adjacent islands
+077 News media, journalism, publishing In eastern Europe In Soviet Union
+078 News media, journalism, publishing In Scandinavia
+079 News media, journalism, publishing In other languages
+080 General collections
+081 General collections American
+082 General collections In English
+083 General collections In other Germanic languages
+084 General collections In French, Provencal, Catalan
+085 General collections In Italian, Romanian, Rhaeto-Romanic
+086 General collections In Spanish & Portuguese
+087 General collections In Slavic languages
+088 General collections In Scandinavian languages
+089 General collections In other languages
+090 Manuscripts & rare books
+091 Manuscripts
+092 Block books
+093 Incunabula
+094 Printed books
+095 Books notable for bindings
+096 Books notable for illustrations
+097 Books notable for ownership or origin
+098 Prohibited works, forgeries, hoaxes
+099 Books notable for format
+100 Philosophy & psychology
+101 Theory of philosophy
+102 Miscellany of philosophy
+103 Dictionaries of philosophy
+104 Not assigned or no longer used
+105 Serial publications of philosophy
+106 Organizations of philosophy
+107 Education, research in philosophy
+108 Kinds of persons in philosophy
+109 Historical treatment of philosophy
+110 Metaphysics
+111 Ontology
+112 Not assigned or no longer used
+113 Cosmology (Philosophy of nature)
+114 Space
+115 Time
+116 Change
+117 Structure
+118 Force & Energy
+119 Number & quantity
+120 Epistemology, causation, humankind
+121 Epistemology (Theory of knowledge)
+122 Causation
+123 Determinism & indeterminism
+124 Teleology
+125 Not assigned or no longer used
+126 The self
+127 The unconscious & the subconscious
+128 Humankind
+129 Origin & destiny of individual souls
+130 Paranormal phenomena
+131 Occult methods for achieving well-being
+132 Not assigned or no longer used
+133 Parapsychology & occultism
+134 Not assigned or no longer used
+135 Dreams & mysteries
+136 Not assigned or no longer used
+137 Divinatory graphology
+138 Physiognomy
+139 Phrenology
+140 Specific philosophical schools
+141 Idealism & related systems
+142 Critical philosophy
+143 Intuitionism & Bergsonism
+144 Humanism & related systems
+145 Sensationalism
+146 Naturalism & related systems
+147 Pantheism & related systems
+148 Liberalism, eclecticism, traditionalism
+149 Other philosophical systems
+150 Psychology
+151 Not assigned or no longer used
+152 Perception, movement, emotions, drives
+153 Mental processes & intelligence
+154 Subconscious & altered states
+155 Differential & developmental psychology
+156 Comparative psychology
+157 Not assigned or no longer used
+158 Applied psychology
+159 Not assigned or no longer used
+160 Logic
+161 Induction
+162 Deduction
+163 Not assigned or no longer used
+164 Not assigned or no longer used
+165 Fallacies & sources of error
+166 Syllogisms
+167 Hypotheses
+168 Argument & persuasion
+169 Analogy
+170 Ethics (Moral philosophy)
+171 Systems & doctrines
+172 Political ethics
+173 Ethics of family relationships
+174 Economic & professional ethics
+175 Ethics of recreation & leisure
+176 Ethics of sex & reproduction
+177 Ethics of social relations
+178 Ethics of consumption
+179 Other ethical norms
+180 Ancient, medieval, Oriental philosophy
+181 Oriental philosophy
+182 Pre-Socratic Greek philosophies
+183 Sophistic & Socratic philosophies
+184 Platonic philosophy
+185 Aristotelian philosophy
+186 Skeptic and Neoplatonic philosophies
+187 Epicurean philosophy
+188 Stoic philosophy
+189 Medieval Western philosophy
+190 Modern Western philosophy
+191 Modern Western philosophy United States & Canada
+192 Modern Western philosophy British Isles
+193 Modern Western philosophy Germany & Austria
+194 Modern Western philosophy France
+195 Modern Western philosophy Italy
+196 Modern Western philosophy Spain & Portugal
+197 Modern Western philosophy Soviet Union
+198 Modern Western philosophy Scandinavia
+199 Modern Western philosophy Other geographical areas
+200 Religion
+201 Philosophy of Christianity
+202 Miscellany of Christianity
+203 Dictionaries of Christianity
+204 Special topics
+205 Serial publications of Christianity
+206 Organizations of Christianity
+207 Education, research in Christianity
+208 Kinds of persons in Christianity
+209 History & geography of Christianity
+210 Natural theology
+211 Concepts of God
+212 Existence, attributes of God
+213 Creation
+214 Theodicy
+215 Science & religion
+216 Good & evil
+217 Not assigned or no longer used
+218 Humankind
+219 Not assigned or no longer used
+220 Bible
+221 Old Testament
+222 Historical books of Old Testament
+223 Poetic books of Old Testament
+224 Prophetic books of Old Testament
+225 New Testament
+226 Gospels & Acts
+227 Epistles
+228 Revelation (Apocalypse)
+229 Apocrypha & pseudepigrapha
+230 Christian theology
+231 God
+232 Jesus Christ & his family
+233 Humankind
+234 Salvation (Soteriology) & grace
+235 Spiritual beings
+236 Eschatology
+237 Not assigned or no longer used
+238 Creeds & catechisms
+239 Apologetics & polemics
+240 Christian moral & devotional theology
+241 Moral theology
+242 Devotional literature
+243 Evangelistic writings for individuals
+244 Not assigned or no longer used
+245 Texts of hymns
+246 Use of art in Christianity
+247 Church furnishings & articles
+248 Christian experience, practice, life
+249 Christian observances in family life
+250 Christian orders & local church
+251 Preaching (Homiletics)
+252 Texts of sermons
+253 Pastoral office (Pastoral theology)
+254 Parish government & administration
+255 Religious congregations & orders
+256 Not assigned or no longer used
+257 Not assigned or no longer used
+258 Not assigned or no longer used
+259 Activities of the local church
+260 Christian social theology
+261 Social theology
+262 Ecclesiology
+263 Times, places of religious observance
+264 Public worship
+265 Sacraments, other rites & acts
+266 Missions
+267 Associations for religious work
+268 Religious education
+269 Spiritual renewal
+270 Christian church history
+271 Religious orders in church history
+272 Persecutions in church history
+273 Heresies in church history
+274 Christian church in Europe
+275 Christian church in Asia
+276 Christian church in Africa
+277 Christian church in North America
+278 Christian church in South America
+279 Christian church in other areas
+280 Christian denominations & sects
+281 Early church & Eastern churches
+282 Roman Catholic Church
+283 Anglican churches
+284 Protestants of Continental origin
+285 Presbyterian, Reformed, Congregational
+286 Baptist, Disciples of Christ, Adventist
+287 Methodist & related churches
+288 Not assigned or no longer used
+289 Other denominations & sects
+290 Other & comparative religions
+291 Comparative religion
+292 Classical (Greek & Roman) religion
+293 Germanic religion
+294 Religions of Indic origin
+295 Zoroastrianism (Mazdaism, Parseeism)
+296 Judaism
+297 Islam & religions originating in it
+298 Not assigned or no longer used
+299 Other religions
