@@ -904,14 +904,17 @@
 888 Not Used
 889 Literature in Medieval and Modern Greek
 
-890-891.49 Indic Literature
-891.5 Iranian/Persian Literature
-891.6 Celtic/Gaelic Literature
-891.7 Slavic and Baltic Literatures
-892-894 Afro-Asiatic Literature (Hamito-Semitic)
-895-896 Literature in East Asian and African Languages
-897-898 North and South American Native Languages
-899 Other Literatures
+890 Literatures of other languages
+891 East Indo-European and Celtic literatures
+892 Afro-Asiatic literatures
+893 Non-Semitic Afro-Asiatic literatures
+894 Altaic, Uralic, Hyperborean & Dravidian
+895 Literatures of East and Southeast Asia
+896 African literatures
+897 North American native literatures
+898 South American native literatures
+899 Austronesian & other literatures
+
 900 Geography & history
 901 Philosophy & theory
 902 Miscellany
