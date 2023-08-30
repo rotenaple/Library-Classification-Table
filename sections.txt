@@ -104,7 +104,7 @@
 101 Theory of philosophy
 102 Miscellany
 103 Dictionaries and encyclopedias
-104 No longer used — formerly "Essays"
+104 formerly: "Essays"
 105 Serial publications
 106 Organizations and management
 107 Education, research, related topics of philosophy
@@ -113,7 +113,7 @@
 -110 Metaphysics
 110 Metaphysics
 111 Ontology
-112 No longer used — formerly Methodology
+112 formerly: Methodology
 113 Cosmology (Philosophy of nature)
 114 Space
 115 Time
@@ -127,7 +127,7 @@
 122 Causation
 123 Determinism and indeterminism
 124 Teleology
-125 No longer used — formerly Infinity
+125 formerly: Infinity
 126 The self
 127 The unconscious and the subconscious
 128 Humankind
@@ -135,11 +135,11 @@
 -130 Parapsychology and occultism
 130 Parapsychology and occultism
 131 Parapsychological and occult methods for achieving well-being, happiness, success
-132 No longer used — formerly "Mental derangements"
+132 formerly: "Mental derangements"
 133 Specific topics in parapsychology and occultism
-134 No longer used — formerly "Mesmerism and Clairvoyance"
+134 formerly: "Mesmerism and Clairvoyance"
 135 Dreams and mysteries
-136 No longer used — formerly "Mental characteristics"
+136 formerly: "Mental characteristics"
 137 Divinatory graphology
 138 Physiognomy
 139 Phrenology
@@ -156,15 +156,15 @@
 149 Other philosophical systems and doctrines
 -150 Psychology
 150 Psychology
-151 No longer used — formerly "Intellect"
+151 formerly: "Intellect"
 152 Sensory perception, movement, emotions, and physiological drives
 153 Conscious mental processes and intelligence
 154 Subconscious and altered states and processes
 155 Differential and developmental psychology
 156 Comparative psychology
-157 No longer used — formerly "Emotions"
+157 formerly: "Emotions"
 158 Applied psychology
-159 No longer used — formerly "Will"
+159 formerly: "Will"
 -160 Philosophical logic
 160 Philosophical logic
 161 Induction
