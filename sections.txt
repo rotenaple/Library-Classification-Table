@@ -99,17 +99,17 @@
 098 Prohibited works, forgeries, hoaxes
 099 Books notable for format
 
-    100 Philosophy
-        100 Philosophy and psychology
-        101 Theory of philosophy
-        102 Miscellany
-        103 Dictionaries and encyclopedias
-        104 No longer used — formerly "Essays"
-        105 Serial publications
-        106 Organizations and management
-        107 Education, research, related topics of philosophy
-        108 Groups of people
-        109 History and collected biography
+100 Philosophy
+100 Philosophy and psychology
+101 Theory of philosophy
+102 Miscellany
+103 Dictionaries and encyclopedias
+104 No longer used — formerly "Essays"
+105 Serial publications
+106 Organizations and management
+107 Education, research, related topics of philosophy
+108 Groups of people
+109 History and collected biography
     110 Metaphysics
         110 Metaphysics
         111 Ontology
