@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: 'Poppins', sans-serif;
-            margin: 20;
+            margin: 20px;
         }
         .button-link {
             font-family: 'Poppins', sans-serif;
@@ -16,16 +16,40 @@
             font-weight: bold;
             font-size: 1.2em;
         }
-        .button-link {
-            display: inline-block;
-            padding: 5px 10px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            cursor: pointer;
-            text-decoration: none;
-            margin-bottom: 5px;
-        }
+        .section-links {
+    /* Add flex styles to display the buttons in a 2x5 grid */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button-link {
+    /* Adjust button styles to fit the grid layout */
+    background-color: #3498db; /* Green */
+    color: white;
+    flex: 0 0 calc(20% - 10px);
+    transition-duration: 0.4s;
+    border-radius: 0;
+    margin: 5px;
+    border: none;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    min-height: 5em;
+    min-width: 10em;
+
+}
+
+.button-link:hover {
+  background-color: #2980b9; /* Green */
+  color: white;
+}
+
+.button-link:active{
+    background-color: #34495e;
+}
+
         .smaller-title {
             font-weight: bold;
             font-size: 1em;
@@ -61,8 +85,8 @@
             padding: 10px;
         }
           .flexible-margin {
-            margin-left: 10%;
-            margin-right: 10%;
+            margin-left: 12%;
+            margin-right: 12%;
             margin-top: 20px;
             margin-bottom: 50px;
         }
@@ -71,26 +95,52 @@
             .flexible-margin {
             margin: 20px;
             }
+            .button-link{
+                flex: 0 0 calc(25% - 10px);
+
+            }
         }
 
         @media (max-width: 720px) {
             .grid-container {
             grid-template-columns: 1fr;
         }
+            .button-link{
+                flex: 0;
+                min-width: 22em;
+                min-height: 2.25em;
+                text-align: left;
+                margin: 0;
+                margin-bottom: -15px;
+            }
+
+            @-moz-document url-prefix() {
+        .button-link {
+            margin-bottom: 10px; /* Set bottom margin to 0 for Firefox */
         }
+    }
+            
+            .section-links{
+                align-items: flex-start;
+                flex-direction: column;
+            }
+
+
+        }
+
     </style>
     <title>Section List</title>
 </head>
 <body>
     <div class="flexible-margin">
+        <h1>Dewey Decimal System <br>
+            Call Numbers</h1>
     <div class="sections-container">
         <div class="section-links" id="sectionLinks"></div>
+        </div>
         <div class="section-text" id="sections"></div>
-    </div>
-
     <div class="grid-container " id="gridContainer"></div>
-
-</div>
+    
 
     <script>
     fetch('https://raw.githubusercontent.com/rotenaple/test/main/sections.txt')
