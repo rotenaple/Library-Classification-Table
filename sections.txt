@@ -6,7 +6,9 @@
 004 Data processing and computer science
 005 Computer programming, programs and data
 006 Special computer methods (e.g. AI, multimedia, VR)[4]
-007–009 [Unassigned]
+007 [Unassigned]
+008 [Unassigned]
+009 [Unassigned]
 -010 Bibliographies
 010 Bibliography
 011 Bibliographies
@@ -176,7 +178,8 @@
 160 Philosophical logic
 161 Induction
 162 Deduction
-163–164 Not assigned or no longer used
+163164 Not assigned or no longer used
+164 Not assigned or no longer used
 165 Fallacies and sources of error
 166 Syllogisms
 167 Hypotheses
@@ -720,7 +723,9 @@
 651 Office services
 652 Processes of written communication
 653 Shorthand
-654–656 Not assigned or no longer used
+65 Not assigned or no longer used
+655 Not assigned or no longer used
+656 Not assigned or no longer used
 657 Accounting
 658 General management
 659 Advertising and public relations
@@ -1026,7 +1031,14 @@
 919 Geography of and travel in Australasia, Pacific Ocean islands, Atlantic Ocean islands, Arctic islands, Antarctica, and on extraterrestrial worlds
 -920 Biography and genealogy
 920 Biography, genealogy, insignia
-921–928 This range is reserved as an optional location for biographies, which are shelved alphabetically by subject's last name.
+921 – 928 This range is reserved as an optional location for biographies, which are shelved alphabetically by subject's last name.
+922
+923
+924
+925
+926
+927
+928
 929 Genealogy, names, insignia
 -930 History of ancient world (to c. 499)
 930 History of ancient world to c. 499
@@ -1096,7 +1108,8 @@
 989 Paraguay and Uruguay
 -990 History of other areas
 990 History of Australasia, Pacific Ocean islands, Atlantic Ocean islands, Arctic islands, Antarctica, extraterrestrial worlds
-991–992 Not assigned or no longer used
+991 Not assigned or no longer used
+992 Not assigned or no longer used
 993 New Zealand
 994 Australia
 995 New Guinea and neighboring countries of Melanesia
