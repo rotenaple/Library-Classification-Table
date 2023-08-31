@@ -5,18 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
     <style>
-        /* Your existing styles here */
         body {
             font-family: 'Poppins', sans-serif;
+            margin: 20;
         }
         .button-link {
             font-family: 'Poppins', sans-serif;
-            /* Other button styles */
         }
         .title {
             font-weight: bold;
             font-size: 1.2em;
-            margin-top: 10px;
         }
         .button-link {
             display: inline-block;
@@ -61,20 +59,31 @@
             border: 1px solid #ccc;
             padding: 10px;
         }
+          .flexible-margin {
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
+
+        @media (max-width: 1200px) {
+            .flexible-margin {
+            margin: 20px;
+            }
+        }
     </style>
     <title>Section List</title>
 </head>
 <body>
+    <div class="flexible-margin">
     <div class="sections-container">
         <div class="section-links" id="sectionLinks"></div>
         <div class="section-text" id="sections"></div>
     </div>
 
-    <div class="grid-container" id="gridContainer"></div>
+    <div class="grid-container " id="gridContainer"></div>
 
-    <div class="footnote">
-        <p>*Obsolete classes. These are no longer used in classifying new books, though older books might retain this classification.</p>
-    </div>
+</div>
 
     <script>
     fetch('https://raw.githubusercontent.com/rotenaple/test/main/sections.txt')
@@ -93,10 +102,12 @@
                     if (!groupRanges[groupCode]) {
                         groupRanges[groupCode] = [];
                     }
-                    groupRanges[groupCode].push(line); // Push the whole line
+                    groupRanges[groupCode].push(line);
                 }
             });
     
+            let buttonCounter = 0;
+
             const groupLinks = [
                 '000 Generalities',
                 '100 Philosophy & psychology',
@@ -111,17 +122,18 @@
             ];
     
             groupLinks.forEach(link => {
-                const groupCode = link.substring(0, 3); // Extract the group code from the link text
-                const groupLink = document.createElement('button'); // Create a button element
-                groupLink.classList.add('button-link'); // Apply button styles
-                groupLink.textContent = link; // Use the link text
+                const groupCode = link.substring(0, 3);
+                const groupLink = document.createElement('button');
+                groupLink.classList.add('button-link');
+                groupLink.id = `button-${buttonCounter++}`;
+                groupLink.textContent = link;
                 sectionLinksDiv.appendChild(groupLink);
                 sectionLinksDiv.appendChild(document.createElement('br'));
     
                 groupLink.addEventListener('click', () => {
                     sectionsDiv.innerHTML = '';
                     gridContainer.innerHTML = '';
-                    const selectedSections = groupRanges[groupCode].slice(0, 100); // Change from 1 to 0
+                    const selectedSections = groupRanges[groupCode].slice(0, 100);
                     const sectionsPerGrid = 10;
                     
                     for (let i = 0; i < selectedSections.length; i += sectionsPerGrid) {
@@ -134,21 +146,20 @@
         
         let isFormerly = false;
 
-        // Check if the section contains the substring "formerly:"
         if (section.includes("formerly:")) {
-            section = section.replace('formerly:', ''); // Remove "formerly:" from the text
+            section = section.replace('formerly:', '');
             isFormerly = true;
         }
 
         sectionElement.textContent = section;
 
         if (isFormerly) {
-            sectionElement.style.color = 'grey'; // Set text color to grey
-            sectionElement.textContent += '*'; // Append an asterisk
+            sectionElement.style.color = 'grey';
+            sectionElement.textContent += '*';
         }
 
         if (index === 0) {
-            sectionElement.classList.add('title'); // Apply larger font size style
+            sectionElement.classList.add('title');
         }
 
         gridItem.appendChild(sectionElement);
@@ -156,8 +167,14 @@
 
     gridContainer.appendChild(gridItem);
 }
-
-                });
+const footnoteDiv = document.createElement('div');
+                footnoteDiv.textContent = '*Obsolete classes. These are no longer used in classifying new books, though older books might retain this classification.';
+                footnoteDiv.style.color = 'grey';
+                footnoteDiv.style.fontSize = '12px';
+                gridContainer.appendChild(footnoteDiv);
+            });
+            document.addEventListener('DOMContentLoaded', function() {
+});
             });
         })
         .catch(error => console.error('Error fetching data:', error));
