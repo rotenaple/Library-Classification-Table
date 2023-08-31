@@ -997,17 +997,6 @@
 898 Literatures of South American native languages
 899 Literatures of non-Austronesian languages of Oceania, of Austronesian languages, of miscellaneous languages
 
-900 Geography & history
-901 Philosophy & theory
-902 Miscellany
-903 Dictionaries & encyclopedias
-904 Collected accounts of events
-905 Serial publications
-906 Organizations & management
-907 Education, research, related topics
-908 With respect to kinds of persons
-909 World history
-
 -900 History
 900 History, geography, and auxiliary disciplines
 901 Philosophy and theory of history
