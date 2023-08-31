@@ -5,7 +5,7 @@
 003 Systems
 004 Data processing and computer science
 005 Computer programming, programs and data
-006 Special computer methods (e.g. AI, multimedia, VR)[4]
+006 Special computer methods (e.g. AI, multimedia, VR)
 007 [Unassigned]
 008 [Unassigned]
 009 [Unassigned]
@@ -824,7 +824,7 @@
 741 Drawing and drawings
 742 Perspective in drawing
 743 Drawing and drawings by subject
-744 Communication design and visual design (proposed[5])
+744 Communication design and visual design (proposed)
 745 Decorative arts
 746 Textile arts
 747 Interior decoration
