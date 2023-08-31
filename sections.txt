@@ -6,14 +6,14 @@
 004 Data processing and computer science
 005 Computer programming, programs and data
 006 Special computer methods (e.g. AI, multimedia, VR)
-007 [Unassigned]
-008 [Unassigned]
-009 [Unassigned]
+007 Not assigned
+008 Not assigned
+009 Not assigned
 -010 Bibliographies
 010 Bibliography
 011 Bibliographies
 012 Bibliographies of individuals
-013 [Unassigned]
+013 Not assigned
 014 Bibliographies of anonymous and pseudonymous works
 015 Bibliographies of works from specific places
 016 Bibliographies of works on specific subjects
@@ -25,12 +25,12 @@
 021 Library relationships (with archives, information centers, etc.)
 022 Administration of physical plant
 023 Personnel management
-024 [Unassigned]
+024 Not assigned
 025 Library operations
 026 Libraries for specific subjects
 027 General libraries
 028 Reading and use of other information media
-029 [Unassigned]
+029 Not assigned
 -030 Encyclopedias and books of facts
 030 General encyclopedic works
 031 Encyclopedias in American English
