@@ -55,6 +55,7 @@
             grid-gap: 10px;
             margin-top: 20px;
         }
+        
         .grid-item {
             border: 1px solid #ccc;
             padding: 10px;
@@ -70,6 +71,12 @@
             .flexible-margin {
             margin: 20px;
             }
+        }
+
+        @media (max-width: 720px) {
+            .grid-container {
+            grid-template-columns: 1fr;
+        }
         }
     </style>
     <title>Section List</title>
@@ -170,7 +177,7 @@
 const footnoteDiv = document.createElement('div');
                 footnoteDiv.textContent = '*Obsolete classes. These are no longer used in classifying new books, though older books might retain this classification.';
                 footnoteDiv.style.color = 'grey';
-                footnoteDiv.style.fontSize = '12px';
+                footnoteDiv.style.fontSize = '14px';
                 gridContainer.appendChild(footnoteDiv);
             });
             document.addEventListener('DOMContentLoaded', function() {
