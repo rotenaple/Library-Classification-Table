@@ -72,6 +72,10 @@
 
     <div class="grid-container" id="gridContainer"></div>
 
+    <div class="footnote">
+        <p>*Obsolete classes. These are no longer used in classifying new books, though older books might retain this classification.</p>
+    </div>
+
     <script>
     fetch('https://raw.githubusercontent.com/rotenaple/test/main/sections.txt')
         .then(response => response.text())
@@ -121,23 +125,38 @@
                     const sectionsPerGrid = 10;
                     
                     for (let i = 0; i < selectedSections.length; i += sectionsPerGrid) {
-                        const gridItem = document.createElement('div');
-                        gridItem.classList.add('grid-item');
-    
-                        const sectionsSubset = selectedSections.slice(i, i + sectionsPerGrid);
-                        sectionsSubset.forEach((section, index) => {
-                            const sectionElement = document.createElement('div');
-                            sectionElement.textContent = section;
-                            
-                            if (index === 0) {
-                                sectionElement.classList.add('title'); // Apply larger font size style
-                            }
-    
-                            gridItem.appendChild(sectionElement);
-                        });
-    
-                        gridContainer.appendChild(gridItem);
-                    }
+    const gridItem = document.createElement('div');
+    gridItem.classList.add('grid-item');
+
+    const sectionsSubset = selectedSections.slice(i, i + sectionsPerGrid);
+    sectionsSubset.forEach((section, index) => {
+        const sectionElement = document.createElement('div');
+        
+        let isFormerly = false;
+
+        // Check if the section contains the substring "formerly:"
+        if (section.includes("formerly:")) {
+            section = section.replace('formerly:', ''); // Remove "formerly:" from the text
+            isFormerly = true;
+        }
+
+        sectionElement.textContent = section;
+
+        if (isFormerly) {
+            sectionElement.style.color = 'grey'; // Set text color to grey
+            sectionElement.textContent += '*'; // Append an asterisk
+        }
+
+        if (index === 0) {
+            sectionElement.classList.add('title'); // Apply larger font size style
+        }
+
+        gridItem.appendChild(sectionElement);
+    });
+
+    gridContainer.appendChild(gridItem);
+}
+
                 });
             });
         })
