@@ -106,23 +106,17 @@
             grid-template-columns: 1fr;
         }
             .button-link{
-                flex: 0;
-                width: 100%;
+                flex: 0 0 100%;
                 min-height: 2.25em;
                 text-align: left;
                 margin: 0;
-                margin-bottom: -15px;
+                margin-bottom: 10px;
             }
-
-            @-moz-document url-prefix() {
-        .button-link {
-            margin-bottom: 10px; /* Set bottom margin to 0 for Firefox */
-        }
-    }
             
             .section-links{
                 align-items: flex-start;
-                flex-direction: column;
+                flex-direction: row;
+            
             }
 
 
