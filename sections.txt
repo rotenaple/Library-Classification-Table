@@ -43,15 +43,16 @@
 038 Encyclopedias in Scandinavian languages
 039 Encyclopedias in other languages
 -040 formerly: Biographies
-041
-042
-043
-044
-045
-046
-047
-048
-049
+040 formerly: Biographies
+041 formerly: Biographies
+042 formerly: Biographies
+043 formerly: Biographies
+044 formerly: Biographies
+045 formerly: Biographies
+046 formerly: Biographies
+047 formerly: Biographies
+048 formerly: Biographies
+049 formerly: Biographies
 -050 Magazines, journals and serials
 050 General serial publications
 051 Serials in American English
@@ -723,7 +724,7 @@
 651 Office services
 652 Processes of written communication
 653 Shorthand
-65 Not assigned or no longer used
+654 Not assigned or no longer used
 655 Not assigned or no longer used
 656 Not assigned or no longer used
 657 Accounting
@@ -1032,13 +1033,13 @@
 -920 Biography and genealogy
 920 Biography, genealogy, insignia
 921 – 928 This range is reserved as an optional location for biographies, which are shelved alphabetically by subject's last name.
-922
-923
-924
-925
-926
-927
-928
+922 Biographies - Optional Location
+923 Biographies - Optional Location
+924 Biographies - Optional Location
+925 Biographies - Optional Location
+926 Biographies - Optional Location
+927 Biographies - Optional Location
+928 Biographies - Optional Location
 929 Genealogy, names, insignia
 -930 History of ancient world (to c. 499)
 930 History of ancient world to c. 499
