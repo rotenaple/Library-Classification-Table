@@ -179,7 +179,7 @@
 160 Philosophical logic
 161 Induction
 162 Deduction
-163164 Not assigned or no longer used
+163 Not assigned or no longer used
 164 Not assigned or no longer used
 165 Fallacies and sources of error
 166 Syllogisms
