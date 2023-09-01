@@ -17,7 +17,6 @@
             font-size: 1.2em;
         }
         .section-links {
-    /* Add flex styles to display the buttons in a 2x5 grid */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -25,8 +24,7 @@
 }
 
 .button-link {
-    /* Adjust button styles to fit the grid layout */
-    background-color: #3498db; /* Green */
+    background-color: #3498db;
     color: white;
     flex: 0 0 calc(20% - 10px);
     transition-duration: 0.4s;
@@ -42,7 +40,7 @@
 }
 
 .button-link:hover {
-  background-color: #2980b9; /* Green */
+  background-color: #2980b9;
   color: white;
 }
 
@@ -197,7 +195,7 @@
         let isFormerly = false;
 
         if (section.includes("formerly:")) {
-            section = section.replace('formerly:', '');
+            section = section.replace('formerly:', '').trim();
             isFormerly = true;
         }
 
