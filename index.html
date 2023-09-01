@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
     <style>
         body {
-            font-family: 'Poppins', sans-serif;
+            font-family: 'IBM Plex Sans', sans-serif;
             margin: 20px;
         }
         .button-link {
-            font-family: 'Poppins', sans-serif;
+            font-family: 'IBM Plex Sans', sans-serif;
         }
         .title {
             font-weight: bold;
@@ -33,7 +35,7 @@
     border: none;
     padding: 8px;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 700;
     min-height: 5em;
     min-width: 10em;
 
@@ -49,12 +51,12 @@
 }
 
         .smaller-title {
-            font-weight: bold;
+            font-weight: 500;
             font-size: 1em;
             margin-top: 5px;
         }
         .larger-title {
-            font-weight: bold;
+            font-weight: 600;
             font-size: 1.5em;
             margin-top: 15px;
         }
@@ -219,6 +221,7 @@ const footnoteDiv = document.createElement('div');
                 footnoteDiv.textContent = '*Obsolete classes. These are no longer used in classifying new books, though older books might retain this classification.';
                 footnoteDiv.style.color = 'grey';
                 footnoteDiv.style.fontSize = '14px';
+                footnoteDiv.style.fontWeight = 500;
                 gridContainer.appendChild(footnoteDiv);
             });
             document.addEventListener('DOMContentLoaded', function() {
