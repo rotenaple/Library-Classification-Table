@@ -100,11 +100,9 @@
     gridContainer.appendChild(gridItem);
 }
 const footnoteDiv = document.createElement('div');
-                footnoteDiv.textContent = '*Obsolete classes. These are no longer used in classifying new books, though older books might retain this classification.';
-                footnoteDiv.style.color = 'grey';
-                footnoteDiv.style.fontSize = '14px';
-                footnoteDiv.style.fontWeight = 500;
-                gridContainer.appendChild(footnoteDiv);
+        footnoteDiv.textContent = '*Obsolete classes. These are no longer used in classifying new books, though older books might retain this classification.';
+        footnoteDiv.classList.add('footnote');
+        gridContainer.appendChild(footnoteDiv);
             });
             document.addEventListener('DOMContentLoaded', function() {
 });
