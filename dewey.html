@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+
+    <title>Dewey Call Number</title>
+</head>
+<body>
+    <div class="flexible-margin">
+        <h1>Dewey Call Numbers</h1>
+    <div class="sections-container">
+        <div class="section-links" id="sectionLinks"></div>
+        </div>
+        <div class="section-text" id="sections"></div>
+    <div class="grid-container " id="gridContainer"></div>
+    </div>
+
+    <script>
+    fetch('https://raw.githubusercontent.com/rotenaple/dewey/test/sections-dewey.txt')
+        .then(response => response.text())
+        .then(data => {
+            const sectionLinksDiv = document.getElementById('sectionLinks');
+            const sectionsDiv = document.getElementById('sections');
+            const gridContainer = document.getElementById('gridContainer');
+            const lines = data.trim().split('\n');
+            const groupRanges = {};
+            
+            lines.forEach(line => {
+                const matchTopLevel = line.match(/^(\d{1})(\d{1})(\d{1}) (.+)/);
+                if (matchTopLevel) {
+                    const groupCode = matchTopLevel[1] + '00';
+                    if (!groupRanges[groupCode]) {
+                        groupRanges[groupCode] = [];
+                    }
+                    groupRanges[groupCode].push(line);
+                }
+            });
+    
+            let buttonCounter = 0;
+
+            const groupLinks = [
+                '000 Generalities',
+                '100 Philosophy & psychology',
+                '200 Religion',
+                '300 Social sciences',
+                '400 Language',
+                '500 Natural sciences & mathematics',
+                '600 Technology (Applied sciences)',
+                '700 The arts',
+                '800 Literature & rhetoric',
+                '900 Geography & history'
+            ];
+    
+            groupLinks.forEach(link => {
+                const groupCode = link.substring(0, 3);
+                const groupLink = document.createElement('button');
+                groupLink.classList.add('button-link');
+                groupLink.id = `button-${buttonCounter++}`;
+                groupLink.textContent = link;
+                sectionLinksDiv.appendChild(groupLink);
+                sectionLinksDiv.appendChild(document.createElement('br'));
+    
+                groupLink.addEventListener('click', () => {
+                    sectionsDiv.innerHTML = '';
+                    gridContainer.innerHTML = '';
+                    const selectedSections = groupRanges[groupCode].slice(0, 100);
+                    const sectionsPerGrid = 10;
+                    
+                    for (let i = 0; i < selectedSections.length; i += sectionsPerGrid) {
+    const gridItem = document.createElement('div');
+    gridItem.classList.add('grid-item');
+
+    const sectionsSubset = selectedSections.slice(i, i + sectionsPerGrid);
+    sectionsSubset.forEach((section, index) => {
+        const sectionElement = document.createElement('div');
+        
+        let isFormerly = false;
+
+        if (section.includes("formerly:")) {
+            section = section.replace('formerly:', '').trim();
+            isFormerly = true;
+        }
+
+        sectionElement.textContent = section;
+
+        if (isFormerly) {
+            sectionElement.style.color = 'grey';
+            sectionElement.textContent += '*';
+        }
+
+        if (index === 0) {
+            sectionElement.classList.add('title');
+        }
+
+        gridItem.appendChild(sectionElement);
+    });
+
+    gridContainer.appendChild(gridItem);
+}
+const footnoteDiv = document.createElement('div');
+        footnoteDiv.textContent = '*Obsolete classes. These are no longer used in classifying new books, though older books might retain this classification.';
+        footnoteDiv.classList.add('footnote');
+        gridContainer.appendChild(footnoteDiv);
+            });
+            document.addEventListener('DOMContentLoaded', function() {
+});
+            });
+        })
+        .catch(error => console.error('Error fetching data:', error));
+    </script>
+
+</body>
+</html>
