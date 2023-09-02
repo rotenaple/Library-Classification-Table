@@ -90,14 +90,14 @@
         
         let isFormerly = false;
 
-        if (section.includes("*")) {
+        if (section.includes("※","→")) {
             isFormerly = true;
         }
 
         sectionElement.textContent = section;
 
         if (isFormerly) {
-            sectionElement.style.color = 'grey';
+            sectionElement.style.color = '#b71c1c';
         }
 
         if (index === 0) {
