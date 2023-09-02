@@ -1,3 +1,4 @@
+-https://en.wikipedia.org/wiki/List_of_Dewey_Decimal_classes
 -000 Computer science, knowledge and systems
 000 Computer science, information and general works
 001 Knowledge

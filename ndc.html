@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="style.css">
 
-    <title>Dewey Call Number</title>
+    <title>日本十進分類法要目表</title>
 </head>
 <body>
     <div class="flexible-margin">
-        <h1>Dewey Call Numbers</h1>
+        <h1>日本十進分類法要目表</h1>
     <div class="sections-container">
         <div class="section-links" id="sectionLinks"></div>
         </div>
@@ -18,19 +18,19 @@
     
     <footer>
         <div class="footer-column">
-            <a href="dewey.html" class="footer-link">🇬🇧 Dewey Decimal Classification</a>
+            <a href="#" class="footer-link">🇯🇵 日本十進分類法</a>
         </div>
         <div class="footer-column">
-            <a href="ncscl.html" class="footer-link">🇹🇼 NCSCL (in Chinese)</a>
+            <a href="dewey.html" class="footer-link">🇬🇧 デューイ十進分類法</a>
         </div>
         <div class="footer-column">
-            <a href="ndc.html" class="footer-link">🇯🇵 NDC (in Japanese)</a>
+            <a href="ncscl.html" class="footer-link">🇹🇼 中文図書分類法</a>
         </div>
     </footer>
 </div>
 
     <script>
-    fetch('https://raw.githubusercontent.com/rotenaple/dewey/main/sections-dewey.txt')
+    fetch('https://raw.githubusercontent.com/rotenaple/dewey/main/sections-ndc.txt')
         .then(response => response.text())
         .then(data => {
             const sectionLinksDiv = document.getElementById('sectionLinks');
@@ -53,16 +53,16 @@
             let buttonCounter = 0;
 
             const groupLinks = [
-                '000 Generalities',
-                '100 Philosophy & psychology',
-                '200 Religion',
-                '300 Social sciences',
-                '400 Language',
-                '500 Natural sciences & mathematics',
-                '600 Technology (Applied sciences)',
-                '700 The arts',
-                '800 Literature & rhetoric',
-                '900 Geography & history'
+                '000 総記',
+                '100 哲学',
+                '200 歴史',
+                '300 社会科学',
+                '400 自然科学',
+                '500 技術',
+                '600 産業',
+                '700 芸術',
+                '800 言語',
+                '900 文学'
             ];
     
             groupLinks.forEach(link => {
@@ -90,16 +90,14 @@
         
         let isFormerly = false;
 
-        if (section.includes("formerly:")) {
-            section = section.replace('formerly:', '').trim();
+        if (section.includes("※","→")) {
             isFormerly = true;
         }
 
         sectionElement.textContent = section;
 
         if (isFormerly) {
-            sectionElement.style.color = 'grey';
-            sectionElement.textContent += '*';
+            sectionElement.style.color = '#b71c1c';
         }
 
         if (index === 0) {
@@ -111,10 +109,10 @@
 
     gridContainer.appendChild(gridItem);
 }
-const footnoteDiv = document.createElement('div');
-        footnoteDiv.textContent = '*Obsolete classes. These are no longer used in classifying new books, though older books might retain this classification.';
-        footnoteDiv.classList.add('footnote');
-        gridContainer.appendChild(footnoteDiv);
+//const footnoteDiv = document.createElement('div');
+        //footnoteDiv.textContent = '*Obsolete classes. These are no longer used in classifying new books, though older books might retain this classification.';
+        //footnoteDiv.classList.add('footnote');
+        //gridContainer.appendChild(footnoteDiv);
             });
             document.addEventListener('DOMContentLoaded', function() {
 });
