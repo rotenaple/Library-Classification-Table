@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="style.css">
 
-    <title>Dewey Call Number</title>
+    <title>中文圖書分類法綱目</title>
 </head>
 <body>
     <div class="flexible-margin">
-        <h1>Dewey Call Numbers</h1>
+        <h1>中文圖書分類法綱目</h1>
     <div class="sections-container">
         <div class="section-links" id="sectionLinks"></div>
         </div>
@@ -41,16 +41,17 @@
             let buttonCounter = 0;
 
             const groupLinks = [
-                '000 Generalities',
-                '100 Philosophy & psychology',
-                '200 Religion',
-                '300 Social sciences',
-                '400 Language',
-                '500 Natural sciences & mathematics',
-                '600 Technology (Applied sciences)',
-                '700 The arts',
-                '800 Literature & rhetoric',
-                '900 Geography & history'
+
+                '000 總類',
+                '100 哲學類',
+                '200 宗教類',
+                '300 科學類',
+                '400 應用科學類',
+                '500 社會科學類',
+                '600 史地類',
+                '700 史地類',
+                '800 語言文學類',
+                '900 藝術類'
             ];
     
             groupLinks.forEach(link => {
@@ -78,8 +79,7 @@
         
         let isFormerly = false;
 
-        if (section.includes("formerly:")) {
-            section = section.replace('formerly:', '').trim();
+        if (section.includes("此項未使用*")) {
             isFormerly = true;
         }
 
@@ -87,7 +87,6 @@
 
         if (isFormerly) {
             sectionElement.style.color = 'grey';
-            sectionElement.textContent += '*';
         }
 
         if (index === 0) {
@@ -100,7 +99,7 @@
     gridContainer.appendChild(gridItem);
 }
 const footnoteDiv = document.createElement('div');
-        footnoteDiv.textContent = '*Obsolete classes. These are no longer used in classifying new books, though older books might retain this classification.';
+        footnoteDiv.textContent = '中文圖書分類法，原名《賴永祥中國圖書分類法》。現時普遍應用於中華民國及香港、澳門。';
         footnoteDiv.classList.add('footnote');
         gridContainer.appendChild(footnoteDiv);
             });

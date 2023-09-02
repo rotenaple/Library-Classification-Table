@@ -1,12 +1,4 @@
 -總類
-
-
-
-
-
-
-
-
 000 特藏
 001 善本
 002 稿本
@@ -107,14 +99,6 @@
 097 讖緯總錄／四書
 098 群經總義合刻／群經總義
 099 石經／小學及樂經
-
-
-
-
-
-
-
-
 
 -哲學類
 100 哲學總論
@@ -218,890 +202,808 @@
 198 職業倫理
 199 道德各論
 
--200 Religion
-200 Religion
-201 Religious mythology, general classes of religion, interreligious relations and attitudes, social theology
-202 Doctrines
-203 Public worship and other practices
-204 Religious experience, life, practice
-205 Religious ethics
-206 Leaders and organization
-207 Missions and religious education
-208 Sources
-209 Sects and reform movements
--210 Philosophy and theory of religion
-210 Philosophy and theory of religion
-211 Concepts of God
-212 Existence, ways of knowing God, attributes of God
-213 Creation
-214 Theodicy
-215 Science and religion
-216 formerly: Evil
-217 formerly: Prayer
-218 Humankind
-219 formerly: Analogies
--220 The Bible
-220 Bible
-221 Old Testament (Tanakh)
-222 Historical books of Old Testament
-223 Poetic books of Old Testament
-224 Prophetic books of Old Testament
-225 New Testament
-226 Gospels and Acts
-227 Epistles
-228 Revelation (Apocalypse)
-229 Apocrypha, pseudepigrapha, and inter-testamental works
--230 Christianity
-230 Christianity
-231 God
-232 Jesus Christ and his family
-233 Humankind
-234 Salvation and grace
-235 Spiritual beings
-236 Eschatology
-237 formerly: Future state
-238 Creeds, confessions of faith, covenants, and catechisms
-239 Apologetics and polemics
--240 Christian practice and observance
-240 Christian moral and devotional theology
-241 Christian ethics
-242 Devotional literature
-243 Evangelistic writings for individuals and families
-244 formerly: Religious fiction
-245 formerly: Hymnology
-246 Use of art in Christianity
-247 Church furnishings and related articles
-248 Christian experience, practice, life
-249 Christian observances in family life
--250 Christian orders and local church
-250 Local Christian church and Christian religious orders
-251 Preaching (Homiletics)
-252 Texts of sermons
-253 Pastoral office and work (Pastoral theology)
-254 Parish administration
-255 Religious congregations and orders
-256 formerly: Religious societies
-257 formerly: Parochial schools, libraries, etc.
-258 formerly: Parochial medicine
-259 Pastoral care of families, of specific groups of people
--260 Social and ecclesiastical theology
-260 Christian social and ecclesiastical theology
-261 Social theology and interreligious relations and attitudes
-262 Ecclesiology
-263 Days, times, places of religious observance
-264 Public worship
-265 Sacraments, other rites and acts
-266 Missions
-267 Associations for religious work
-268 Religious education
-269 Spiritual renewal
--270 History of Christianity
-270 History, geographic treatment, biography of Christianity
-271 Religious congregations and orders in church history
-272 Persecutions in church history
-273 Doctrinal controversies and heresies in general church history
-274 Christianity in Europe
-275 Christianity in Asia
-276 Christianity in Africa
-277 Christianity in North America
-278 Christianity in South America
-279 History of Christianity in other areas
--280 Christian denominations
-280 Denominations and sects of Christian church
-281 Early church and Eastern churches
-282 Roman Catholic Church
-283 Anglican churches
-284 Protestant denominations of Continental origin and related body
-285 Presbyterian churches, Reformed churches centered in America, Congregational churches
-286 Baptist, Restoration Movement, Adventist churches
-287 Methodist churches; churches related to Methodism
-288 formerly: Unitarian
-289 Other denominations and sects
--290 Other religions
-290 Other religions
-291 formerly: Comparative religion
-292 Classical religion (Greek and Roman religion)
-293 Germanic religion
-294 Religions of Indic origin
-295 Zoroastrianism (Mazdaism, Parseeism)
-296 Judaism
-297 Islam, Bábism and Baháʼí Faith
-298 formerly: Mormonism
-299 Religions not provided for elsewhere
+-宗教類
+200 宗教總論
+201 宗教政策
+202 此項未使用*
+203 宗教教育及研究
+204 宗教辭典
+205 宗教期刊
+206 宗教團體
+207 宗教論文集
+208 宗教叢書
+209 宗教史
+210 宗教學總論
+211 宗教經驗
+212 宗教倫理道德
+213 宗教行為及組織
+214 宗教與文化
+215 原始宗教
+216 宗教觀念與思想
+217 宗教交流
+218 各宗教比較論；比較宗教學
+219 宗教思想史；宗教學史
+220 佛教總論
+221 經及其釋
+222 論及其釋
+223 律及其釋
+224 佛教儀制；佛教文藝
+225 佛教佈教及信仰生活
+226 佛教宗派
+227 寺院
+228 佛教史地
+229 佛教傳記
+230 道教總論
+231 道藏
+232 此項未使用*
+233 道教規律
+234 道教儀式
+235 道教修鍊
+236 道教宗派
+237 道觀及道教組織
+238 道教史
+239 道教傳記
+240 基督教總論
+241 聖經
+242 神學；教義學
+243 教義文獻
+244 實際神學；儀式
+245 教牧學
+246 宗派
+247 教會；社會神學
+248 基督教史
+249 基督教傳記
+250 伊斯蘭教總論
+251 伊斯蘭教經典
+252 伊斯蘭教論疏
+253 伊斯蘭教規律
+254 伊斯蘭教儀式
+255 伊斯蘭教佈教
+256 伊斯蘭教宗派
+257 伊斯蘭教教會及組織
+258 伊斯蘭教史
+259 伊斯蘭教傳記
+260 猶太教總論
+261 猶太教經典
+262 猶太教教義
+263 猶太教規律
+264 猶太教儀式
+265 猶太教佈教
+266 猶太教宗派
+267 猶太教教會及組織
+268 猶太教史
+269 猶太教傳記
+270 其他宗教
+271 中國其他宗教
+272 祠祀
+273 日本神道
+274 婆羅門教；印度教
+275 祆教
+276 其他東方諸宗教
+277 希臘羅馬之宗教
+278 條頓系及北歐之宗教
+279 其他
+280 神話總論
+281 此項未使用*
+282 中國神話
+283 亞洲各國神話
+284 西洋各國神話
+285 各國神話
+286 各國神話
+287 各國神話
+288 此項未使用*
+289 此項未使用*
+290 術數總論
+291 陰陽五行
+292 占卜
+293 命相
+294 堪輿
+295 巫術
+296 通靈術；心靈術
+297 異象奇聞；奇蹟
+298 迷信；禁忌
+299 各國迷信禁忌
 
--300 Social sciences, sociology and anthropology
-300 Social sciences
-301 Sociology and anthropology
-302 Social interaction
-303 Social processes
-304 Factors affecting social behavior
-305 Groups of people
-306 Culture and institutions
-307 Communities
-308 formerly: Polygraphy
-309 formerly: History of sociology
--310 Statistics
-310 Collections of general statistics
-311 formerly: Theory and methods
-312 formerly: Population
-313 formerly: Special topics
-314 General statistics of Europe
-315 General statistics of Asia
-316 General statistics of Africa
-317 General statistics of North America
-318 General statistics of South America
-319 General statistics of Australasia, Pacific Ocean islands, Atlantic Ocean islands, Arctic islands, Antarctica
--320 Political science
-320 Political science (Politics and government)
-321 Systems of governments and states
-322 Relation of state to organized groups and their members
-323 Civil and political rights
-324 The political process
-325 International migration and colonization
-326 Slavery and emancipation
-327 International relations
-328 The legislative process
-329 Not assigned or no longer used
--330 Economics
-330 Economics
-331 Labor economics
-332 Financial economics
-333 Economics of land and energy
-334 Cooperatives
-335 Socialism and related systems
-336 Public finance
-337 International economics
-338 Production
-339 Macroeconomics and related topics
--340 Law
-340 Law
-341 Law of nations
-342 Constitutional and administrative law
-343 Military, defense, public property, public finance, tax, commerce (trade), industrial law
-344 Labor, social service, education, cultural law
-345 Criminal law
-346 Private law
-347 Procedure and courts
-348 Laws, regulations, cases
-349 Law of specific jurisdictions, areas, socioeconomic regions, regional intergovernmental organizations
--350 Public administration and military science
-350 Public administration and military science
-351 Public administration
-352 General considerations of public administration
-353 Specific fields of public administration
-354 Public administration of economy and environment
-355 Military science
-356 Foot forces and warfare
-357 Mounted forces and warfare
-358 Air and other specialized forces and warfare; engineering and related services
-359 Sea forces and warfare
--360 Social problems and social services
-360 Social problems and services; associations
-361 Social problems and services
-362 Social problems of and services to groups of people
-363 Other social problems and services
-364 Criminology
-365 Penal and related institutions
-366 Secret associations and societies
-367 General clubs
-368 Insurance
-369 Associations
--370 Education
-370 Education
-371 Schools and their activities, special education
-372 Primary education (elementary education)
-373 Secondary education
-374 Adult education
-375 Curriculum
-376 formerly: Education of women
-377 formerly: Ethical education
-378 Higher education (Tertiary education)
-379 Public policy issues in education
--380 Commerce, communications and transportation
-380 Commerce, communications transportation
-381 Commerce (Trade)
-382 International commerce (Foreign trade)
-383 Postal communication
-384 Communications
-385 Railroad transportation
-386 Inland waterway and ferry transportation
-387 Water, air, space transportation
-388 Transportation
-389 Metrology and standardization
--390 Customs, etiquette and folklore
-390 Customs, etiquette, folklore
-391 Costume and personal appearance
-392 Customs of life cycle and domestic life
-393 Death customs
-394 General customs
-395 Etiquette (Manners)
-396 formerly: Women's position and treatment
-397 formerly: outcast studies
-398 Folklore
-399 Customs of war and diplomacy
+-科學類
+300 科學總論
+301 科學理論
+302 科學參考工具
+303 科學教育及研究
+304 科學辭典
+305 科學期刊
+306 科學團體
+307 科學論文集
+308 科學叢書
+309 科學史
+310 數學總論
+311 初等數學
+312 電腦科學
+313 代數
+314 數學分析
+315 拓樸學
+316 幾何
+317 此項未使用*
+318 數值分析
+319 應用數學；機率
+320 天文學總論
+321 理論天文學
+322 實用天文學
+323 天體；天象
+324 天文地理學；大地天文學
+325 月球
+326 太空科學
+327 歲時；曆法；應用天文學
+328 氣象學
+329 此項未使用*
+330 物理學總論
+331 理論物理學
+332 力學
+333 物質
+334 聲學；聲音
+335 熱學
+336 光；光學
+337 電學；電子學
+338 磁學
+339 現代物理
+340 化學總論
+341 分析化學
+342 儀器分析化學
+343 高分子化學
+344 此項未使用*
+345 無機化學
+346 有機化學
+347 化學實驗及設備
+348 物理化學
+349 材料化學
+350 地球科學總論；地質學總論
+351 自然地理
+352 歷史地質學
+353 固態地球科學
+354 動力地質學
+355 經濟地質學
+356 地質調查
+357 礦物學
+358 岩石學
+359 古生物學
+360 生物科學總論
+361 普通生物學
+362 演化論
+363 遺傳學
+364 細胞論
+365 經濟生物學
+366 生物分布；生物地理學
+367 生態學
+368 生物技術
+369 微生物學
+370 植物學總論
+371 植物形態學
+372 此項未使用*
+373 植物生理學
+374 植物生態學
+375 植物分類學
+376 經濟植物學
+377 種子植物
+378 孢子植物
+379 菌藻植物門
+380 動物學總論
+381 動物形態學
+382 動物解剖學
+383 動物生理學
+384 經濟動物學
+385 動物分佈；動物地理學
+386 無脊椎動物
+387 節肢動物門；緩步動物門；舌形動物門
+388 半索動物門；脊索動物門
+389 哺乳綱
+390 人類學總論
+391 體質人類學
+392 人種學
+393 此項未使用*
+394 人體解剖學
+395 人體組織學；顯微解剖學
+396 人體胚胎學
+397 人體生理學
+398 各部生理
+399 生物化學；醫化學
 
--400 Language
-400 Language
-401 Philosophy and theory, international languages
-402 Miscellany
-403 Dictionaries, encyclopedias, concordances
-404 Special topics of language
-405 Serial publications
-406 Organizations and management
-407 Education, research, related topics
-408 Groups of people
-409 Geographic treatment and biography
--410 Linguistics
-410 Linguistics
-411 Writing systems of standard forms of languages
-412 Etymology of standard forms of languages
-413 Dictionaries of standard forms of languages
-414 Phonology and phonetics of standard forms of languages
-415 Grammar of standard forms of languages
-416 formerly: Prosody
-417 Dialectology and historical linguistics
-418 Standard usage (Prescriptive linguistics)
-419 Sign languages
--420 English and Old English languages
-420 English and Old English (Anglo-Saxon)
-421 Writing system, phonology, phonetics of standard English
-422 Etymology of standard English
-423 Dictionaries of standard English
-424 formerly: English thesauruses
-425 Grammar of standard English
-426 formerly: English prosodies
-427 Historical and geographical variations, modern nongeographic variations of English
-428 Standard English usage (Prescriptive linguistics)
-429 Old English (Anglo-Saxon)
--430 German and related languages
-430 German and related languages
-431 Writing systems, phonology, phonetics of standard German
-432 Etymology of standard German
-433 Dictionaries of standard German
-434 Not assigned or no longer used
-435 Grammar of standard German
-436 Not assigned or no longer used
-437 Historical and geographic variations, modern nongeographic variations of German
-438 Standard German usage (Prescriptive linguistics)
-439 Other Germanic languages
--440 French and related languages
-440 French and related Romance languages
-441 Writing systems, phonology, phonetics of standard French
-442 Etymology of standard French
-443 Dictionaries of standard French
-444 Not assigned or no longer used
-445 Grammar of standard French
-446 Not assigned or no longer used
-447 Historical and geographic variations, modern nongeographic variations of French
-448 Standard French usage (Prescriptive linguistics)
-449 Occitan Catalan, Franco-Provençal
--450 Italian, Romanian and related languages
-450 Italian, Dalmatian, Romanian, Rhaetian, Sardinian, Corsican
-451 Writing systems, phonology, phonetics of standard Italian
-452 Etymology of standard Italian
-453 Dictionaries of standard Italian
-454 Not assigned or no longer used
-455 Grammar of standard Italian
-456 Not assigned or no longer used
-457 Historical and geographic variations, modern nongeographic variations of Italian
-458 Standard Italian usage (Prescriptive linguistics)
-459 Romanian, Rhaetian, Sardinian, Corsican
--460 Spanish, Portuguese, Galician
-460 Spanish, Portuguese, Galician
-461 Writing systems, phonology, phonetics of standard Spanish
-462 Etymology of standard Spanish
-463 Dictionaries of standard Spanish
-464 Not assigned or no longer used
-465 Grammar of standard Spanish
-466 Not assigned or no longer used
-467 Historical and geographic variations, modern nongeographic variations of Spanish
-468 Standard Spanish usage (Prescriptive linguistics)
-469 Portuguese
--470 Latin and Italic languages
-470 Latin and related Italic languages
-471 Writing systems, phonology, phonetics of classical Latin
-472 Etymology of classical Latin
-473 Dictionaries of classical Latin
-474 Not assigned or no longer used
-475 Grammar of classical Latin
-476 Not assigned or no longer used
-477 Old, postclassical, Vulgar Latin
-478 Classical Latin usage (Prescriptive linguistics)
-479 Other Italic languages
--480 Classical and modern Greek languages
-480 Classical Greek and related Hellenic languages
-481 Writing systems, phonology, phonetics of classical Greek
-482 Etymology of classical Greek
-483 Dictionaries of classical Greek
-484 Not assigned or no longer used
-485 Grammar of classical Greek
-486 Not assigned or no longer used
-487 Preclassical and postclassical Greek
-488 Classical Greek usage (Prescriptive linguistics)
-489 Other Hellenic languages
--490 Other languages
-490 Other languages
-491 East Indo-European and Celtic languages
-492 Afro-Asiatic languages
-493 Non-Semitic Afro-Asiatic languages
-494 Altaic, Uralic, Hyperborean, Dravidian languages, miscellaneous languages of south Asia
-495 Languages of East and Southeast Asia
-496 African languages
-497 North American native languages
-498 South American native languages
-499 Non-Austronesian languages of Oceania, Austronesian languages, miscellaneous languages
+-應用科學類
+400 應用科學總論
+401 技術理論
+402 技術參考工具
+403 技術教育及研究
+404 技術辭典
+405 此項未使用*
+406 技術團體
+407 此項未使用*
+408 技術叢書
+409 技術史
+410 醫藥總論
+411 衛生學
+412 公共衛生
+413 中國醫學
+414 中藥學
+415 西醫學
+416 外科
+417 婦產科；老幼科
+418 藥學；藥理學；治療學
+419 醫院管理；醫事行政；護理
+420 家政總論
+421 家庭經濟；家庭管理
+422 居住環境
+423 衣飾；服裝
+424 此項未使用*
+425 美容
+426 家庭手藝
+427 飲食；烹飪
+428 育兒
+429 家庭衛生
+430 農業總論
+431 農業經濟
+432 此項未使用*
+433 農業氣象與災害
+434 農藝
+435 園藝
+436 森林
+437 畜牧與獸醫
+438 魚業
+439 農產加工
+440 工程學總論
+441 土木工程；建築工程
+442 道路工程；鐵路工程
+443 水利工程
+444 船舶工程
+445 市政工程；環境工程
+446 機械工程
+447 交通工具工程
+448 電機工程
+449 核子工程
+450 礦冶總論
+451 礦業經濟
+452 探礦；採礦；選礦
+453 金屬礦
+454 冶金；合金
+455 此項未使用*
+456 煤礦
+457 石油礦；石油工業
+458 非金屬礦
+459 非金屬礦
+460 化學工程
+461 化學藥品；化學工業
+462 爆炸物；燃料；照明
+463 食品工業
+464 矽酸鹽工業
+465 染料；顏料；塗料
+466 油脂及界面活性劑工業
+467 高分子化學工業
+468 電化學工業
+469 其他化學工業
+470 製造總論
+471 精密機械工藝
+472 金屬工藝
+473 石材工藝
+474 木工藝；竹工藝
+475 皮革工藝
+476 造紙工藝
+477 印刷工藝
+478 纖維工程
+479 其他工藝
+480 商業總論
+481 糧商業
+482 其他農產品業
+483 畜牧水產品業；飲食相關行業
+484 機械業；電機資訊業
+485 化學製品業
+486 礦產品業
+487 製造品業
+488 紡織品業
+489 其他各種營業
+490 商學總論
+491 商業地理
+492 商政
+493 商業實踐
+494 企業管理
+495 會計
+496 商品學；市場學；行銷管理
+497 廣告
+498 商店
+499 企業志；公司行號志
 
--500 Science
-500 Natural sciences and mathematics
-501 Philosophy and theory
-502 Miscellany
-503 Dictionaries, encyclopedias, concordances
-504 Not assigned or no longer used
-505 Serial publications
-506 Organizations and management
-507 Education, research, related topics
-508 Natural history
-509 History, geographic treatment, biography
--510 Mathematics
-510 Mathematics
-511 General principles of mathematics
-512 Algebra
-513 Arithmetic
-514 Topology
-515 Analysis
-516 Geometry
-517 Not assigned or no longer used
-518 Numerical analysis
-519 Probabilities and applied mathematics
--520 Astronomy
-520 Astronomy and allied sciences
-521 Celestial mechanics
-522 Techniques, procedures, apparatus, equipment, materials
-523 Specific celestial bodies and phenomena
-524 Not assigned or no longer used
-525 Earth (Astronomical geography)
-526 Mathematical geography
-527 Celestial navigation
-528 Ephemerides
-529 Chronology
--530 Physics
-530 Physics
-531 Classical mechanics
-532 Fluid mechanics
-533 Pneumatics (Gas mechanics)
-534 Sound and related vibrations
-535 Light and related radiation
-536 Heat
-537 Electricity and electronics
-538 Magnetism
-539 Modern physics
--540 Chemistry
-540 Chemistry and allied sciences
-541 Physical chemistry
-542 Techniques, procedures, apparatus, equipment, materials
-543 Analytical chemistry
-544 formerly: Qualitative analysis
-545 formerly: Quantitative analysis
-546 Inorganic chemistry
-547 Organic chemistry
-548 Crystallography
-549 Mineralogy
--550 Earth sciences and geology
-550 Earth sciences
-551 Geology, hydrology, meteorology
-552 Petrology
-553 Economic geology
-554 Earth sciences of Europe
-555 Earth sciences of Asia
-556 Earth sciences of Africa
-557 Earth sciences of North America
-558 Earth sciences of South America
-559 Earth sciences of Australasia, Pacific Ocean islands, Atlantic Ocean islands, Arctic islands, Antarctica, extraterrestrial worlds
--560 Fossils and prehistoric life
-560 Paleontology
-561 Paleobotany, fossil microorganisms
-562 Fossil invertebrates
-563 Miscellaneous fossil marine and seashore invertebrates
-564 Fossil Mollusca and Molluscoidea
-565 Fossil Arthropoda
-566 Fossil Chordata
-567 Fossil cold-blooded vertebrates
-568 Fossil Aves (birds)
-569 Fossil Mammalia
--570 Biology
-570 Biology
-571 Physiology and related subjects
-572 Biochemistry
-573 Specific physiological systems in animals, regional histology and physiology in animals
-574 Not assigned or no longer used
-575 Specific parts of and physiological systems in plants
-576 Genetics and evolution
-577 Ecology
-578 Natural history of organisms and related subjects
-579 Natural history of microorganisms, fungi, algae
--580 Plants
-580 Plants
-581 Specific topics in natural history of plants
-582 Plants noted for specific vegetative characteristics and flowers
-583 Magnoliopsida (Dicotyledones)
-584 Liliopsida (Monocotyledones)
-585 Pinophyta (Gymnosperms)
-586 Cryptogamia (Seedless plants)
-587 Pteridophyta
-588 Bryophyta
-589 formerly: Forestry
--590 Animals (Zoology)
-590 Animals
-591 Specific topics in natural history of animals
-592 Invertebrates
-593 Miscellaneous marine and seashore invertebrates
-594 Mollusca and Molluscoidea
-595 Arthropoda
-596 Chordata
-597 Cold-blooded vertebrates
-598 Aves (Birds)
-599 Mammalia (Mammals)
+-社會科學類
+500 社會科學總論
+501 社會科學理論
+502 社會科學參考工具
+503 社會科學教育及研究
+504 社會科學辭典
+505 社會科學期刊
+506 社會科學團體
+507 社會科學論文集
+508 社會科學叢書
+509 社會思想史
+510 統計學總論
+511 統計學各論
+512 統計資料處理
+513 統計機關
+514 各國統計
+515 人口統計
+516 生命統計
+517 國民所得統計
+518 應用統計學
+519 各科統計
+520 教育總論
+521 教育心理學；教學；課程
+522 教師及師資培育
+523 初等教育
+524 中等教育
+525 高等教育
+526 教育行政
+527 學校管理
+528 各種教育
+529 特殊人教育
+530 禮俗總論
+531 禮經
+532 通禮
+533 邦禮
+534 家禮
+535 民族學
+536 民族志
+537 原始文化
+538 民俗學；各國風俗
+539 民謠；傳說
+540 社會學總論
+541 社會學各論
+542 社會問題
+543 社會調查報告；社會計劃
+544 家庭；族制
+545 社區；環境
+546 社會階層及組織
+547 社會工作；社會福利
+548 社會救濟
+549 社會改革論
+550 經濟學總論
+551 經濟學各論
+552 經濟史地
+553 生產；企業；經濟政策
+554 土地問題
+555 產業；工業
+556 勞工
+557 交通
+558 貿易
+559 合作
+560 財政學總論
+561 貨幣；金融
+562 銀行
+563 金融各論
+564 公共財政
+565 各國財政狀況
+566 地方財政
+567 租稅
+568 關稅
+569 此項未使用*
+570 政治學總論
+571 政治學各論
+572 比較政府
+573 中國政治制度
+574 各國政治
+575 地方制度；地方自治
+576 政黨
+577 移民及殖民
+578 國際關係
+579 國際法
+580 法律總論
+581 憲法
+582 中國法規彙編
+583 各國法規
+584 民法
+585 刑法
+586 訴訟法
+587 商事法
+588 行政法
+589 司法制度
+590 軍事總論
+591 軍制
+592 兵法；作戰法
+593 軍事教育；軍事訓練
+594 軍需；後勤；軍人生活
+595 軍事技術
+596 陸軍
+597 海軍
+598 空軍
+599 國防；防務
 
--600 Technology
-600 Technology (Applied sciences)
-601 Philosophy and theory
-602 Miscellany
-603 Dictionaries, encyclopedias, concordances
-604 Technical drawing, hazardous materials technology; groups of people
-605 Serial publications
-606 Organizations
-607 Education, research, related topics
-608 Patents
-609 History, geographic treatment, biography
--610 Medicine and health
-610 Medicine and health
-611 Human anatomy, cytology, histology
-612 Human physiology
-613 Personal health and safety
-614 Forensic medicine; incidence of injuries, wounds, disease; public preventive medicine
-615 Pharmacology and therapeutics
-616 Diseases
-617 Surgery, regional medicine, dentistry, ophthalmology, otology, audiology
-618 Gynecology, obstetrics, pediatrics, geriatrics
-619 formerly: Experimental medicine
--620 Engineering
-620 Engineering and applied operations
-621 Applied physics
-622 Mining and related operations
-623 Military and nautical engineering
-624 Civil engineering
-625 Engineering of railroads, roads
-626 Not assigned or no longer used
-627 Hydraulic engineering
-628 Sanitary engineering
-629 Other branches of engineering
--630 Agriculture
-630 Agriculture and related technologies
-631 Specific techniques; apparatus, equipment, materials
-632 Plant injuries, diseases, pests
-633 Field and plantation crops
-634 Orchards, fruits, forestry
-635 Garden crops (Horticulture)
-636 Animal husbandry
-637 Processing dairy and related products
-638 Insect culture
-639 Hunting, fishing, conservation, related technologies
--640 Home and family management
-640 Home and family management
-641 Food and drink
-642 Meals and table service
-643 Housing and household equipment
-644 Household utilities
-645 Household furnishings
-646 Sewing, clothing, management of personal and family life
-647 Management of public households (Institutional housekeeping)
-648 Housekeeping
-649 Child rearing; home care of people with disabilities and illnesses
--650 Management and public relations
-650 Management and auxiliary services
-651 Office services
-652 Processes of written communication
-653 Shorthand
-654 Not assigned or no longer used
-655 Not assigned or no longer used
-656 Not assigned or no longer used
-657 Accounting
-658 General management
-659 Advertising and public relations
--660 Chemical engineering
-660 Chemical engineering and related technologies
-661 Technology of industrial chemicals
-662 Technology of explosives, fuels, related products
-663 Beverage technology
-664 Food technology
-665 Technology of industrial oils, fats, waxes, gases
-666 Ceramic and allied technologies
-667 Cleaning, color, coating, related technologies
-668 Technology of other organic products
-669 Metallurgy
--670 Manufacturing
-670 Manufacturing
-671 Metalworking processes and primary metal products
-672 Iron, steel, other iron alloys
-673 Nonferrous metals
-674 Lumber processing, wood products, cork
-675 Leather and fur processing
-676 Pulp and paper technology
-677 Textiles
-678 Elastomers and elastomer products
-679 Other products of specific kinds of materials
--680 Manufacture for specific uses
-680 Manufacture of products for specific uses
-681 Precision instruments and other devices
-682 Small forge work (Blacksmithing)
-683 Hardware and household appliances
-684 Furnishings and home workshops
-685 Leather and fur goods, and related products
-686 Printing and related activities
-687 Clothing and accessories
-688 Other final products, and packaging technology
-689 Not assigned or no longer used 
--690 Construction of buildings
-690 Construction of buildings
-691 Building materials
-692 Auxiliary construction practices
-693 Construction in specific types of materials and for specific purposes
-694 Wood construction
-695 Roof covering
-696 Utilities
-697 Heating, ventilating, air-conditioning engineering
-698 Detail finishing
-699 Not assigned or no longer used
+-史地類
+600 史地總論
+601 史學
+602 史學參考工具
+603 史學教育及研究
+604 史學辭典
+605 史學期刊
+606 史學團體
+607 史學論文集
+608 史學叢書
+609 地理學
+610 中國通史
+611 中國史學理論
+612 中國史學參考工具
+613 中國史學教育
+614 中國史學辭典
+615 中國史學期刊
+616 中國史學團體
+617 中國史學論文集
+618 中國史學叢書
+619 中國史研究
+620 中國斷代史
+621 先秦
+622 漢及三國
+623 晉及南北朝
+624 唐及五代
+625 宋及遼金元
+626 明
+627 清
+628 民國
+629 中國方隅史
+630 中國文化史
+631 先秦文化史
+632 漢及三國文化史
+633 晉及南北朝文化史
+634 唐及五代文化史
+635 宋及遼金元文化史
+636 明代文化史
+637 清代文化史
+638 現代文化史
+639 中國民族史
+640 中國外交史
+641 前代中國外交史
+642 現代中國外交史
+643 中國與亞洲
+644 中國與歐洲
+645 中國與美洲
+646 中國與非洲
+647 中國與大洋洲
+648 中國與國際機構
+649 中國各地方外交史
+650 中國史料
+651 詔令
+652 奏議；公牘
+653 起居注
+654 實錄
+655 檔案
+656 族檔
+657 公報
+658 中國史料叢刊
+659 雜史料
+660 中國地理總志
+661 先秦地理志
+662 漢及三國地理志
+663 晉及南北朝地理志
+664 唐及五代地理志
+665 宋及遼金元地理志
+666 明代地理志
+667 清代地理志
+668 此項未使用*
+669 中國歷史地理
+670 中國地方志總論
+671 華北地區
+672 華中地區
+673 華南地區
+674 東北地區
+675 塞北地區
+676 西部地區
+677 此項未使用*
+678 此項未使用*
+679 此項未使用*
+680 中國地理類志
+681 都城；疆域
+682 水志
+683 山志
+684 名勝古蹟
+685 人文地理
+686 經濟地理
+687 人物
+688 此項未使用*
+689 雜記
+690 中國遊記
+691 此項未使用*
+692 此項未使用*
+693 此項未使用*
+694 此項未使用*
+695 此項未使用*
+696 此項未使用*
+697 此項未使用*
+698 此項未使用*
+699 此項未使用*
 
--700 Arts
-700 The Arts
-701 Philosophy and theory of fine and decorative arts
-702 Miscellany of fine and decorative arts
-703 Dictionaries, encyclopedias, concordances of fine and decorative arts
-704 Special topics in fine and decorative arts
-705 Serial publications of fine and decorative arts
-706 Organizations and management of fine and decorative arts
-707 Education, research, related topics of fine and decorative arts
-708 Galleries, museums, private collections of fine and decorative arts
-709 History, geographic treatment, biography
--710 Area planning and landscape architecture
-710 Area planning and landscape architecture
-711 Area planning (Civic art)
-712 Landscape architecture (Landscape design)
-713 Landscape architecture of trafficways
-714 Water features in landscape architecture
-715 Woody plants in landscape architecture
-716 Herbaceous plants in landscape architecture
-717 Structures in landscape architecture
-718 Landscape design of cemeteries
-719 Natural landscapes
--720 Architecture
-720 Architecture
-721 Architectural materials and structural elements
-722 Architecture from earliest times to c. 300
-723 Architecture from c. 300 to 1399
-724 Architecture from 1400
-725 Public structures
-726 Buildings for religious and related purposes
-727 Buildings for educational and research purposes
-728 Residential and related buildings
-729 Design and decoration of structures and accessories
--730 Sculpture, ceramics and metalwork
-730 Sculpture and related arts
-731 Processes, forms, subjects of sculpture
-732 Sculpture from earliest times to c. 500, sculpture of non-literate peoples
-733 Greek, Etruscan, Roman sculpture
-734 Sculpture from ca 500 to 1399
-735 Sculpture from 1400
-736 Carving and carvings
-737 Numismatics and sigillography
-738 Ceramic arts
-739 Art metalwork
--740 Graphic arts and decorative arts
-740 Graphic arts
-741 Drawing and drawings
-742 Perspective in drawing
-743 Drawing and drawings by subject
-744 Communication design and visual design (proposed)
-745 Decorative arts
-746 Textile arts
-747 Interior decoration
-748 Glass
-749 Furniture and accessories
--750 Painting
-750 Painting and paintings
-751 Techniques, procedures, apparatus, equipment, materials, forms
-752 Color
-753 Symbolism, allegory, mythology, legend
-754 Genre paintings
-755 Religion
-756 Not assigned or no longer used
-757 Human figures
-758 Nature, architectural subjects and cityscapes, other specific subjects
-759 History, geographic treatment, biography
--760 Printmaking and prints
-760 Printmaking and prints
-761 Relief processes (Block printing)
-762 Not assigned or no longer used
-763 Lithographic processes (Planographic processes)
-764 Chromolithography and serigraphy
-765 Metal engraving
-766 Mezzotinting, aquatinting, and related processes
-767 Etching and drypoint
-768 Not assigned or no longer used
-769 Prints
--770 Photography, computer art, film, video
-770 Photography, computer art, cinematography, videography
-771 Techniques, procedures, apparatus, equipment, materials
-772 Metallic salt processes
-773 Pigment processes of printing
-774 formerly: Holography
-775 formerly: Digital photography
-776 Computer art (Digital art)
-777 Cinematography and Videography
-778 Specific fields and special kinds of photography
-779 Photographic images
--780 Music
-780 Music
-781 General principles and musical forms
-782 Vocal music
-783 Music for single voices
-784 Instruments and Instrumental ensembles and their music
-785 Ensembles with only one instrument per part
-786 Keyboard, mechanical, electrophonic, percussion instruments
-787 Stringed instruments (Chordophones)
-788 Wind instruments (Aerophones)
-789 Not assigned or no longer used 
--790 Outline of sports, games and entertainment
-790 Recreational and performing arts
-791 Public performances
-792 Stage presentations
-793 Indoor games and amusements
-794 Indoor games of skill
-795 Games of chance
-796 Athletic and outdoor sports and games
-797 Aquatic and air sports
-798 Equestrian sports and animal racing
-799 Fishing, hunting, shooting
+-世界史地
+710 世界史地
+711 世界通史
+712 世界斷代史
+713 世界文化史
+714 世界外交史
+715 世界史料
+716 世界地理
+717 世界區域志
+718 世界地理類志
+719 世界遊記
+720 海洋志總論
+721 太平洋
+722 北太平洋
+723 南太平洋
+724 印度洋
+725 大西洋
+726 地中海
+727 北極海
+728 南極海
+729 航海記彙編
+730 亞洲史地總論
+731 日本
+732 韓國
+733 臺灣
+734 中亞
+735 中東
+736 西南亞
+737 南亞；印度
+738 東南亞
+739 馬來群島
+740 歐洲史地總論
+741 英國
+742 法國
+743 德國
+744 中歐
+745 義大利
+746 伊比利半島及諸小國
+747 北歐
+748 俄羅斯
+749 東南歐
+750 美洲史地總論
+751 北美洲
+752 美國
+753 加拿大
+754 拉丁美洲
+755 中美諸國
+756 南美洲
+757 南美各國
+758 南美各國
+759 南美各國
+760 非洲史地總論
+761 埃及
+762 衣索匹亞
+763 撒哈拉
+764 中非
+765 東非
+766 西非
+767 西北非洲
+768 南部非洲
+769 非洲屬島
+770 大洋洲總論
+771 澳大利亞
+772 紐西蘭
+773 此項未使用*
+774 太平洋諸島嶼
+775 美拉尼西亞
+776 密克羅尼西亞
+777 玻里尼西亞
+778 北極
+779 南極洲
+780 傳記總論
+781 世界傳記
+782 中國傳記
+783 亞洲傳記
+784 歐洲傳記
+785 美洲傳記
+786 非洲傳記
+787 大洋洲傳記
+788 此項未使用*
+789 譜系
+790 文物考古總論
+791 文物彙考；金石志
+792 甲骨
+793 金屬器物
+794 石
+795 古書畫；古文書
+796 磚瓦陶及雜器
+797 中國古物志
+798 各國古物志
+799 史前文物考古
 
--800 Literature, rhetoric and criticism
-800 Literature (Belles-lettres) and rhetoric
-801 Philosophy and theory
-802 Miscellany
-803 Dictionaries, encyclopedias, concordances
-804 Not assigned or no longer used
-805 Serial publications
-806 Organizations and management
-807 Education, research, related topics
-808 Rhetoric and collections of literary texts from more than two literatures
-809 History, description, critical appraisal of more than two literatures
--810 American literature in English
-810 American literature in English
-811 American poetry in English
-812 American drama in English
-813 American fiction in English
-814 American essays in English
-815 American speeches in English
-816 American letters in English
-817 American humor and satire in English
-818 American miscellaneous writings in English
-819 formerly: Puzzle activities
--820 English and Old English literatures
-820 English and Old English (Anglo-Saxon) literatures
-821 English Poetry
-822 English drama
-823 English fiction
-824 English essays
-825 English speeches
-826 English letters
-827 English humor and satire
-828 English miscellaneous writings
-829 Old English (Anglo-Saxon) literature
--830 German and related literatures
-830 German literature and literatures of related languages
-831 German poetry
-832 German drama
-833 German fiction
-834 German essays
-835 German speeches
-836 German letters
-837 German humor and satire
-838 German miscellaneous writings
-839 Other Germanic literatures
--840 French and related literatures
-840 French literature and literatures of related Romance languages
-841 French poetry
-842 French drama
-843 French fiction
-844 French essays
-845 French speeches
-846 French letters
-847 French humor and satire
-848 French miscellaneous writings
-849 Occitan, Catalan, Franco-Provençal literatures
--850 Italian, Romanian and related literatures
-850 Literatures of Italian, Dalmatian, Romanian, Rhaetian, Sardinian, Corsican languages
-851 Italian poetry
-852 Italian drama
-853 Italian fiction
-854 Italian essays
-855 Italian speeches
-856 Italian letters
-857 Italian humor and satire
-858 Italian miscellaneous writings
-859 Literatures of Romanian, Rhaetian, Sardinian, Corsican languages
--860 Spanish, Portuguese, Galician literatures
-860 Literatures of Spanish, Portuguese, Galician languages
-861 Spanish poetry
-862 Spanish drama
-863 Spanish fiction
-864 Spanish essays
-865 Spanish speeches
-866 Spanish letters
-867 Spanish humor and satire
-868 Spanish miscellaneous writings
-869 Literatures of Portuguese and Galician languages
--870 Latin and Italic literatures
-870 Latin literature and literatures of related Italic languages
-871 Latin poetry
-872 Latin dramatic poetry and drama
-873 Latin epic poetry and fiction
-874 Latin lyric poetry
-875 Latin speeches
-876 Latin letters
-877 Latin humor and satire
-878 Latin miscellaneous writings
-879 Literatures of other Italic languages
--880 Classical and modern Greek literatures
-880 Classical Greek literature and literatures of related Hellenic languages
-881 Classical Greek poetry
-882 Classical Greek drama
-883 Classical Greek epic poetry and fiction
-884 Classical Greek lyric poetry
-885 Classical Greek speeches
-886 Classical Greek letters
-887 Classical Greek humor and satire
-888 Classical Greek miscellaneous writings
-889 Modern Greek literature
--890 Other literatures
-890 Literatures of other specific languages and language families
-891 East Indo-European and Celtic literatures
-892 Afro-Asiatic literatures
-893 Non-Semitic Afro-Asiatic literatures
-894 Literatures of Altaic, Uralic, Hyperborean, Dravidian languages; literatures of miscellaneous languages of South Asia
-895 Literatures of East and Southeast Asia
-896 African literatures
-897 Literatures of North American native languages
-898 Literatures of South American native languages
-899 Literatures of non-Austronesian languages of Oceania, of Austronesian languages, of miscellaneous languages
+-語言文學類
+800 語言學總論
+801 比較語言學
+802 漢語
+803 東方語言
+804 印歐語系
+805 日耳曼語族
+806 斯拉夫語族
+807 其他語系
+808 美洲、非洲、大洋洲諸語言
+809 人為語
+810 文學總論
+811 寫作；翻譯；演講
+812 文藝創作及批評
+813 世界文學總集
+814 此項未使用*
+815 各種文學
+816 此項未使用*
+817 此項未使用*
+818 此項未使用*
+819 比較文學
+820 中國文學總論
+821 中國詩論
+822 辭賦論
+823 詞論；詞話
+824 中國戲曲論
+825 中國散文論；語體文論；新文學論
+826 中國雜文學論
+827 中國小說論
+828 此項未使用*
+829 中國文學批評史
+830 中國文學總集
+831 中國詩總集
+832 辭賦總集
+833 詞總集
+834 中國戲曲總集
+835 中國散文總集
+836 中國國文課本
+837 中國語體文總集
+838 婦女作品總集
+839 中國各地藝文總集
+840 中國文學別集
+841 此項未使用*
+842 漢及三國別集
+843 晉及南北朝別集
+844 唐及五代別集
+845 宋及遼金元別集
+846 明代別集
+847 清代別集
+848 現代別集
+849 此項未使用*
+850 各地方文學；各民族文學；各體文學
+851 中國詩
+852 詞
+853 曲
+854 劇本
+855 散文；隨筆；日記
+856 函牘及雜著
+857 小說
+858 民間文學；俗文學
+859 中國兒童文學
+860 東方文學總論
+861 日本文學
+862 韓國文學
+863 臺灣文學
+864 中東文學
+865 阿拉伯文學
+866 伊朗文學
+867 印度文學
+868 東南亞文學
+869 其他亞洲各國文學
+870 西洋文學總論
+871 古代西洋文學
+872 近代西洋文學
+873 英國文學
+874 美國文學
+875 德國文學
+876 法國文學
+877 義大利文學
+878 西班牙文學
+879 葡萄牙文學
+880 俄國文學
+881 北歐各國文學
+882 中歐各國文學
+883 東歐各國文學
+884 此項未使用*
+885 美洲各國文學
+886 非洲各國文學
+887 大洋洲各國文學
+888 此項未使用*
+889 西洋小說
+890 新聞學總論
+891 新聞政策；新聞法規
+892 組織和管理
+893 新聞編輯及報導
+894 新聞業務；新聞經營
+895 新聞採訪及新聞寫作
+896 通訊社
+897 各種新聞媒體
+898 中國新聞事業
+899 各國新聞事業
 
--900 History
-900 History, geography, and auxiliary disciplines
-901 Philosophy and theory of history
-902 Miscellany of history
-903 Dictionaries, encyclopedias, concordances of history
-904 Collected accounts of events
-905 Serial publications of history
-906 Organizations and management of history
-907 Education, research, related topics of history
-908 History with respect to groups of people
-909 World history
--910 Geography and travel
-910 Geography and travel
-911 Historical geography
-912 Graphic representations of surface of earth and of extraterrestrial worlds
-913 Geography of and travel in the ancient world
-914 Geography of and travel in Europe
-915 Geography of and travel in Asia
-916 Geography of and travel in Africa
-917 Geography of and travel in North America
-918 Geography of and travel in South America
-919 Geography of and travel in Australasia, Pacific Ocean islands, Atlantic Ocean islands, Arctic islands, Antarctica, and on extraterrestrial worlds
--920 Biography and genealogy
-920 Biography, genealogy, insignia
-921 – 928 This range is reserved as an optional location for biographies, which are shelved alphabetically by subject's last name.
-922 Biographies - Optional Location
-923 Biographies - Optional Location
-924 Biographies - Optional Location
-925 Biographies - Optional Location
-926 Biographies - Optional Location
-927 Biographies - Optional Location
-928 Biographies - Optional Location
-929 Genealogy, names, insignia
--930 History of ancient world (to c. 499)
-930 History of ancient world to c. 499
-931 China to 420
-932 Egypt to 640
-933 Palestine to 70
-934 South Asia to 647
-935 Mesopotamia and Iranian Plateau to 637
-936 Europe north and west of Italian Peninsula to c. 499
-937 Italy and adjacent territories to 476
-938 Greece to 323
-939 Other parts of ancient world
--940 History of Europe
-940 History of Europe
-941 British Isles
-942 England and Wales
-943 Germany and neighboring central European countries
-944 France and Monaco
-945 Italy, San Marino, Vatican City, Malta
-946 Spain, Andorra, Gibraltar, Portugal
-947 Russia and neighboring east European countries
-948 Scandinavia
-949 Other parts of Europe
--950 History of Asia
-950 History of Asia
-951 China and adjacent areas
-952 Japan
-953 Arabian Peninsula and adjacent areas
-954 India and neighboring south Asian countries
-955 Iran
-956 Middle East (Near East)
-957 Siberia (Asiatic Russia)
-958 Central Asia
-959 Southeast Asia
--960 History of Africa
-960 History of Africa
-961 Tunisia and Libya
-962 Egypt, Sudan, South Sudan
-963 Ethiopia and Eritrea
-964 Morocco, Ceuta, Melilla Western Sahara, Canary Islands
-965 Algeria
-966 West Africa and offshore islands
-967 Central Africa and offshore islands
-968 South Africa & southern Africa
-969 South Indian Ocean islands
--970 History of North America
-970 History of North America
-971 Canada
-972 Mexico, Central America, West Indies, Bermuda
-973 United States
-974 Northeastern United States (New England and Middle Atlantic states)
-975 Southeastern United States (South Atlantic states)
-976 South central United States
-977 North central United States
-978 Western United States
-979 Great Basin and Pacific Slope region of United States
--980 History of South America
-980 History of South America
-981 Brazil
-982 Argentina
-983 Chile
-984 Bolivia
-985 Peru
-986 Colombia and Ecuador
-987 Venezuela
-988 Guiana
-989 Paraguay and Uruguay
--990 History of other areas
-990 History of Australasia, Pacific Ocean islands, Atlantic Ocean islands, Arctic islands, Antarctica, extraterrestrial worlds
-991 Not assigned or no longer used
-992 Not assigned or no longer used
-993 New Zealand
-994 Australia
-995 New Guinea and neighboring countries of Melanesia
-996 Polynesia and other Pacific Ocean islands
-997 Atlantic Ocean islands
-998 Arctic islands and Antarctica
-999 Extraterrestrial worlds
+-藝術類
+900 藝術總論
+901 藝術理論
+902 藝術圖譜
+903 藝術教育及研究
+904 藝術辭典
+905 藝術期刊
+906 藝術團體
+907 藝術論文集
+908 藝術叢書
+909 藝術史
+910 音樂總論
+911 音樂理論
+912 合奏及樂團
+913 聲樂；歌曲
+914 舞蹈音樂
+915 戲劇音樂
+916 絃樂
+917 鍵盤樂器；敲擊樂器；電子與電腦樂器
+918 管樂
+919 民族音樂
+920 建築藝術總論
+921 建築藝術設計
+922 中國建築
+923 各國建築
+924 宮殿；城廓
+925 道路；橋梁
+926 公共建築
+927 宗教建築；陵墓
+928 民屋；住宅
+929 景觀建築
+930 雕塑總論
+931 篆刻；刻印
+932 雕塑材料及技法
+933 木雕
+934 石雕
+935 金屬雕刻
+936 玉雕；象牙雕及其他
+937 版畫
+938 陶瓷雕塑；雕漆
+939 塑造
+940 繪畫總論
+941 中國書畫
+942 書法
+943 法帖；拓本
+944 中國畫
+945 中國畫冊
+946 東洋畫
+947 西洋繪畫
+948 各種西洋畫法
+949 西洋畫各派
+950 攝影總論
+951 攝影器材設備
+952 攝影技術
+953 專題攝影技術
+954 特殊攝影技術
+955 攝影術之應用
+956 電腦藝術
+957 專題攝影集
+958 普通攝影集
+959 攝影業；攝影師
+960 應用美術總論
+961 圖案
+962 裝飾文字
+963 色彩及配色
+964 工業美術
+965 此項未使用*
+966 織品服飾工藝美術
+967 室內裝飾
+968 玻璃及金屬工藝美術
+969 民間工藝美術
+970 技藝總論
+971 花藝；插花
+972 紙藝
+973 香道
+974 茶藝；茶道
+975 此項未使用*
+976 舞蹈；跳舞
+977 此項未使用*
+978 此項未使用*
+979 此項未使用*
+980 戲劇總論
+981 劇場藝術
+982 中國戲劇
+983 東洋戲劇
+984 西洋戲劇
+985 學校戲劇
+986 偶戲
+987 電影
+988 此項未使用*
+989 其他各種戲劇
+990 遊藝及休閒活動總論
+991 公共娛樂
+992 旅遊；觀光
+993 戶外活動
+994 水上運動
+995 室內遊戲
+996 兒童遊戲
+997 智力遊戲
+998 博戲
+999 業餘遊玩；民俗藝術
