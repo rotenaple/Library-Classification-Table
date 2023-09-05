@@ -1,25 +1,43 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;600;700&display=swap">
-h1 {
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;600;700&display=swap"> 
+h1{
 
 }
-body {
-    font-family: 'IBM Plex Sans', 'Noto Sans TC', sans-serif !important;
+/*body {
+    font-family: 'IBM Plex Sans', 'Zen Kaku Gothic New', sans-serif !important;
 }
 .button-link {
-    font-family: 'IBM Plex Sans', 'Noto Sans TC', sans-serif !important;
+    font-family: 'IBM Plex Sans', 'Zen Kaku Gothic New', sans-serif !important;
 }
 h1 {
-    font-family: 'IBM Plex Sans', 'Noto Sans TC', sans-serif !important;
+    font-family: 'IBM Plex Sans', 'Zen Kaku Gothic New', sans-serif !important;
 }
 .footnote {
-    color: black !important;
-    font-family: 'IBM Plex Sans', 'Noto Sans TC', sans-serif !important;
+    font-family: 'IBM Plex Sans', 'Zen Kaku Gothic New', sans-serif !important;
 }
 footer {
-    font-family: 'IBM Plex Sans', 'Noto Sans TC', sans-serif !important;
+    font-family: 'IBM Plex Sans', 'Zen Kaku Gothic New', sans-serif !important;
 }
 .footer-link {
-    font-family: 'IBM Plex Sans', 'Noto Sans TC', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif !important;
+    font-family: 'IBM Plex Sans', 'Zen Kaku Gothic New', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif !important;
+}*/
+
+body {
+    font-family: 'IBM Plex Sans', 'Zen Kaku Gothic New', sans-serif !important;
+}
+.button-link {
+    font-family: 'IBM Plex Sans', 'Zen Kaku Gothic New', sans-serif !important;
+}
+h1 {
+    font-family: 'IBM Plex Sans', 'Zen Kaku Gothic New', sans-serif !important;
+}
+.footnote {
+    font-family: 'IBM Plex Sans', 'Zen Kaku Gothic New', sans-serif !important;
+}
+footer {
+    font-family: 'IBM Plex Sans', 'Zen Kaku Gothic New', sans-serif !important;
+}
+.footer-link {
+    font-family: 'IBM Plex Sans', 'Zen Kaku Gothic New', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif !important;
 }
