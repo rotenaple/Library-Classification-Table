@@ -1,12 +1,24 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;600;700&display=swap"> 
+h1{
 
+}
 body {
-    font-family: 'IBM Plex Sans', 'Noto Sans JP', sans-serif;
-    margin: 20px;
+    font-family: 'IBM Plex Sans', 'Zen Kaku Gothic New', sans-serif !important;
 }
 .button-link {
-    font-family: 'IBM Plex Sans', 'Noto Sans JP', sans-serif;
+    font-family: 'IBM Plex Sans', 'Zen Kaku Gothic New', sans-serif !important;
+}
+h1 {
+    font-family: 'IBM Plex Sans', 'Zen Kaku Gothic New', sans-serif !important;
+}
+.footnote {
+    font-family: 'IBM Plex Sans', 'Zen Kaku Gothic New', sans-serif !important;
+}
+footer {
+    font-family: 'IBM Plex Sans', 'Zen Kaku Gothic New', sans-serif !important;
+}
+.footer-link {
+    font-family: 'IBM Plex Sans', 'Zen Kaku Gothic New', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif !important;
 }
