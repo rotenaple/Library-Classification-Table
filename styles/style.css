@@ -117,7 +117,7 @@ background-color: #34495e;
         .footer-link {
             color: #2980b9;
             text-decoration: none;
-            font-family: 'IBM Plex Sans', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;
+            font-family: 'IBM Plex Sans', 'Twemoji Mozilla', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;
         }
 
 @media (max-width: 1200px) {
